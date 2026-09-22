@@ -60,7 +60,7 @@ export default function HowItWorksSection() {
               {/* Right Image */}
               <div className="overflow-hidden rounded-3xl bg-[#0A0F24] border border-white/10 shadow-xl group">
                 <Image
-                  src="/step-1-tereatv.jpg"
+                  src="/step-1-tereatv-v2.jpg"
                   alt="Step 1: Select your TereaTV IPTV subscription package and receive instant M3U & Xtream Codes login credentials"
                   title="Step 1: Choose TereaTV IPTV Plan"
                   width={600}
@@ -84,7 +84,7 @@ export default function HowItWorksSection() {
               {/* Left Image */}
               <div className="overflow-hidden rounded-3xl bg-[#0A0F24] border border-white/10 shadow-xl group order-2 md:order-1">
                 <Image
-                  src="/step-2-tereatv.jpg"
+                  src="/step-2-tereatv-v2.jpg"
                   alt="Step 2: 5-minute easy installation of TereaTV IPTV application on Firestick, Smart TV, Android Box, or Apple TV"
                   title="Step 2: Install TereaTV IPTV App"
                   width={600}
@@ -152,7 +152,7 @@ export default function HowItWorksSection() {
               {/* Right Image */}
               <div className="overflow-hidden rounded-3xl bg-[#0A0F24] border border-white/10 shadow-xl group">
                 <Image
-                  src="/step-3-tereatv.jpg"
+                  src="/step-3-tereatv-v2.jpg"
                   alt="Step 3: Stream over 50,000 live 4K channels and 200,000 VOD movies with zero buffering on TereaTV"
                   title="Step 3: Watch 4K Live TV on TereaTV"
                   width={600}

@@ -20,7 +20,7 @@ export default function DeviceSupport() {
             <div className="relative rounded-3xl overflow-hidden border border-white/10 bg-[#0A0F24] backdrop-blur-xl p-4 shadow-[0_20px_50px_rgba(0,0,0,0.7)] transition-transform duration-500 group-hover:-translate-y-2">
               <div className="relative rounded-2xl overflow-hidden">
                 <Image
-                  src="/devices-banner-tereatv.jpg"
+                  src="/devices-banner-tereatv-v2.jpg"
                   alt="Supported TereaTV IPTV Devices — Firestick, Smart TV, Android Box, Apple TV, PC & MAG"
                   title="TereaTV Cross-Platform IPTV Compatibility"
                   width={800}

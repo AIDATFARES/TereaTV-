@@ -14,7 +14,7 @@ export default function HeroSection() {
       {/* Expressive IPTV Cover Image Layer */}
       <div className="absolute inset-0 z-0 opacity-75 lg:opacity-90 transition-opacity duration-500">
         <Image
-          src="/hero-cover-tereatv.jpg"
+          src="/hero-cover-tereatv-v2.jpg"
           alt="TereaTV Premium IPTV 4K Ultra HD Streaming — Live Sports, Global Cinema & 50,000+ Channels"
           title="TereaTV 4K Ultra HD IPTV Streaming Platform"
           priority
