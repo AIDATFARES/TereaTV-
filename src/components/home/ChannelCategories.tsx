@@ -9,15 +9,15 @@ export default function ChannelCategories() {
       desc: (
         <>
           Watch every sporting clash, championship game, and live broadcast in crisp 4K, Full HD, and 60FPS. Built-in anti-freeze algorithms guarantee stutter-free streaming on{" "}
-          <Link href="/installation" className="text-[#C084FC] hover:underline font-semibold">
+          <Link href="/installation" className="text-[#38BDF8] hover:underline font-semibold">
             every supported device
           </Link>
           .
         </>
       ),
       tags: ["4K UHD", "FULL HD", "ANTI-FREEZE"],
-      color: "from-purple-500/20 to-indigo-500/10",
-      iconColor: "text-[#C084FC] bg-purple-500/10 border-purple-500/30",
+      color: "from-sky-500/20 to-blue-500/10",
+      iconColor: "text-[#38BDF8] bg-sky-500/10 border-sky-500/30",
     },
     {
       icon: Layers,
@@ -25,15 +25,15 @@ export default function ChannelCategories() {
       desc: (
         <>
           Explore{" "}
-          <Link href="/channels" className="text-[#818CF8] hover:underline font-semibold">
+          <Link href="/channels" className="text-[#38BDF8] hover:underline font-semibold">
             +50,000 live TV channels
           </Link>{" "}
           covering live global sports, 24/7 breaking news, cinema networks, and family programming from over 160 countries in pristine audio-visual quality.
         </>
       ),
       tags: ["160+ COUNTRIES", "SPORTS", "NEWS", "KIDS"],
-      color: "from-indigo-500/20 to-blue-500/10",
-      iconColor: "text-[#818CF8] bg-indigo-500/10 border-indigo-500/30",
+      color: "from-blue-500/20 to-cyan-500/10",
+      iconColor: "text-[#38BDF8] bg-blue-500/10 border-blue-500/30",
     },
     {
       icon: Film,
@@ -45,14 +45,14 @@ export default function ChannelCategories() {
             200,000+ movies &amp; series
           </Link>
           , boxsets, and pay-per-view replays on all{" "}
-          <Link href="/pricing" className="text-[#C084FC] hover:underline font-semibold">
-            Orexetv subscription plans
+          <Link href="/pricing" className="text-[#38BDF8] hover:underline font-semibold">
+            TereaTV subscription plans
           </Link>
           .
         </>
       ),
       tags: ["MOVIES", "SERIES", "REPLAYS", "UPDATED DAILY"],
-      color: "from-cyan-500/20 to-purple-500/10",
+      color: "from-cyan-500/20 to-sky-500/10",
       iconColor: "text-[#22D3EE] bg-cyan-500/10 border-cyan-500/30",
     },
   ];
@@ -64,13 +64,13 @@ export default function ChannelCategories() {
       desc: (
         <>
           Your{" "}
-          <Link href="/pricing" className="text-[#C084FC] hover:underline font-semibold">
-            Orexetv IPTV subscription
+          <Link href="/pricing" className="text-[#38BDF8] hover:underline font-semibold">
+            TereaTV IPTV subscription
           </Link>{" "}
           credentials are provisioned and delivered within minutes on WhatsApp or email.
         </>
       ),
-      iconColor: "text-[#C084FC] bg-purple-500/10",
+      iconColor: "text-[#38BDF8] bg-sky-500/10",
     },
     {
       icon: Smartphone,
@@ -78,13 +78,13 @@ export default function ChannelCategories() {
       desc: (
         <>
           Full step-by-step setup guides for{" "}
-          <Link href="/installation" className="text-[#818CF8] hover:underline font-semibold">
+          <Link href="/installation" className="text-[#38BDF8] hover:underline font-semibold">
             Smart TV, Firestick, Android, iOS &amp; PC
           </Link>
           .
         </>
       ),
-      iconColor: "text-[#818CF8] bg-indigo-500/10",
+      iconColor: "text-[#38BDF8] bg-blue-500/10",
     },
     {
       icon: Globe2,
@@ -106,18 +106,18 @@ export default function ChannelCategories() {
       desc: (
         <>
           Redundant high-capacity servers eliminate buffering during peak matches. Read our{" "}
-          <Link href="/faq" className="text-[#4CFF91] hover:underline font-semibold">
+          <Link href="/faq" className="text-[#00F0FF] hover:underline font-semibold">
             IPTV FAQ guide
           </Link>
           .
         </>
       ),
-      iconColor: "text-[#4CFF91] bg-emerald-500/10",
+      iconColor: "text-[#00F0FF] bg-cyan-500/10",
     },
   ];
 
   return (
-    <section className="relative z-10 bg-[#080511] py-20 sm:py-28 border-b border-white/5 bg-grid-pattern">
+    <section className="relative z-10 bg-[#060A1A] py-20 sm:py-28 border-b border-white/5 bg-grid-pattern">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         
         {/* Heading */}
@@ -127,13 +127,13 @@ export default function ChannelCategories() {
           </div>
           <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight leading-[1.1] uppercase">
             Everything You Need for the <br className="hidden md:block" />
-            <span className="bg-gradient-to-r from-[#C084FC] via-[#818CF8] to-[#22D3EE] bg-clip-text text-transparent">
-              Ultimate Orexetv Experience
+            <span className="bg-gradient-to-r from-[#38BDF8] via-[#0EA5E9] to-[#00F0FF] bg-clip-text text-transparent">
+              Ultimate TereaTV Experience
             </span>
           </h2>
           <p className="mt-4 text-sm sm:text-base text-slate-400 max-w-2xl mx-auto">
             Engineered with high-bandwidth CDN nodes across Europe, North America, and worldwide for instant channel switching. Learn{" "}
-            <Link href="/how-it-works" className="text-[#C084FC] hover:underline font-semibold">
+            <Link href="/how-it-works" className="text-[#38BDF8] hover:underline font-semibold">
               how our IPTV service works
             </Link>{" "}
             or explore our complete{" "}
@@ -154,7 +154,7 @@ export default function ChannelCategories() {
               return (
                 <div 
                   key={idx} 
-                  className="flex flex-col rounded-3xl border border-white/10 bg-[#0B0714] p-7 sm:p-8 backdrop-blur-xl transition-all duration-300 hover:-translate-y-2 hover:border-purple-500/40 hover:shadow-[0_16px_40px_rgba(0,0,0,0.6)] group"
+                  className="flex flex-col rounded-3xl border border-white/10 bg-[#0A0F24] p-7 sm:p-8 backdrop-blur-xl transition-all duration-300 hover:-translate-y-2 hover:border-sky-500/40 hover:shadow-[0_16px_40px_rgba(0,0,0,0.6)] group"
                 >
                   <div className={`mb-6 inline-flex h-14 w-14 items-center justify-center rounded-2xl border ${feature.iconColor} group-hover:scale-110 transition-transform`}>
                     <Icon className="h-7 w-7" strokeWidth={2} />
@@ -167,7 +167,7 @@ export default function ChannelCategories() {
                     {feature.tags.map((tag, tagIdx) => (
                       <span 
                         key={tagIdx} 
-                        className="rounded-full border border-purple-500/20 bg-purple-500/5 px-3 py-1 text-[10px] font-extrabold uppercase tracking-wider text-[#C084FC]"
+                        className="rounded-full border border-sky-500/20 bg-sky-500/5 px-3 py-1 text-[10px] font-extrabold uppercase tracking-wider text-[#38BDF8]"
                       >
                         {tag}
                       </span>
@@ -185,7 +185,7 @@ export default function ChannelCategories() {
               return (
                 <div 
                   key={idx} 
-                  className="flex flex-col rounded-2xl border border-white/10 bg-[#0B0714] p-6 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1.5 hover:border-purple-500/40 hover:shadow-[0_10px_30px_rgba(0,0,0,0.5)] group"
+                  className="flex flex-col rounded-2xl border border-white/10 bg-[#0A0F24] p-6 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1.5 hover:border-sky-500/40 hover:shadow-[0_10px_30px_rgba(0,0,0,0.5)] group"
                 >
                   <div className={`mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl ${feature.iconColor} group-hover:scale-110 transition-transform`}>
                     <Icon className="h-6 w-6" strokeWidth={2} />

@@ -28,7 +28,7 @@ const devices: DeviceItem[] = [
     note: (
       <span>
         Samsung TVs commonly use Smart IPTV, while LG TVs can use IPTV Smarters or SS IPTV. See our guide on the{" "}
-        <Link href="/blog/best-iptv-players-smart-tv-firestick-android" className="text-[#C084FC] hover:underline font-semibold">
+        <Link href="/installation" className="text-[#38BDF8] hover:underline font-semibold">
           best IPTV players for Smart TVs
         </Link>
         .
@@ -43,11 +43,7 @@ const devices: DeviceItem[] = [
     app: "IPTV Smarters Pro or TiviMate", 
     note: (
       <span>
-        Install your preferred IPTV player from the Amazon Appstore or follow our step-by-step{" "}
-        <Link href="/blog/how-to-set-up-iptv-on-firestick" className="text-[#C084FC] hover:underline font-semibold">
-          Firestick setup guide
-        </Link>
-        , then sign in with the details from your welcome email.
+        Install your preferred IPTV player from the Amazon Appstore, then sign in with the details from your welcome message.
       </span>
     ) 
   },
@@ -60,8 +56,8 @@ const devices: DeviceItem[] = [
     note: (
       <span>
         Download your player from Google Play and use the playlist details from your{" "}
-        <Link href="/pricing" className="text-[#C084FC] hover:underline font-semibold">
-          Orexetv subscription
+        <Link href="/pricing" className="text-[#38BDF8] hover:underline font-semibold">
+          TereaTV subscription
         </Link>{" "}
         to sign in.
       </span>
@@ -84,7 +80,7 @@ const devices: DeviceItem[] = [
     note: (
       <span>
         Send your MAG device MAC address to our{" "}
-        <Link href="/contact" className="text-[#C084FC] hover:underline font-semibold">
+        <Link href="/contact" className="text-[#38BDF8] hover:underline font-semibold">
           support team
         </Link>{" "}
         so we can activate your portal before setup.
@@ -106,11 +102,7 @@ const faqs: FAQItem[] = [
     question: "1. How do I install IPTV on a Smart TV?", 
     answer: (
       <span>
-        Install a compatible player such as Smart IPTV or IPTV Smarters from your TV&apos;s app store (see our{" "}
-        <Link href="/blog/best-iptv-players-smart-tv-firestick-android" className="text-[#C084FC] hover:underline font-semibold">
-          top recommended IPTV players
-        </Link>
-        ), then add the M3U URL or Xtream credentials from your welcome email.
+        Install a compatible player such as Smart IPTV or IPTV Smarters from your TV&apos;s app store, then add the M3U URL or Xtream credentials from your welcome email.
       </span>
     )
   },
@@ -118,8 +110,8 @@ const faqs: FAQItem[] = [
     question: "2. Where do I find my M3U URL?", 
     answer: (
       <span>
-        Your M3U URL is included in the welcome email sent after activation of your{" "}
-        <Link href="/pricing" className="text-[#C084FC] hover:underline font-semibold">
+        Your M3U URL is included in the welcome message sent after activation of your{" "}
+        <Link href="/pricing" className="text-[#38BDF8] hover:underline font-semibold">
           IPTV subscription
         </Link>
         .{" "}
@@ -135,7 +127,7 @@ const faqs: FAQItem[] = [
     answer: (
       <span>
         Use a stable internet connection, restart your device and router, and select an appropriate stream buffer setting. Read our complete guide to{" "}
-        <Link href="/blog/how-to-fix-iptv-buffering-smart-tv-firestick-android-tv" className="text-[#C084FC] hover:underline font-semibold">
+        <Link href="/faq" className="text-[#38BDF8] hover:underline font-semibold">
           fixing IPTV buffering
         </Link>
         .
@@ -143,7 +135,7 @@ const faqs: FAQItem[] = [
     )
   },
   { 
-    question: "4. How do I set up Orexetv using Xtream Codes API?", 
+    question: "4. How do I set up TereaTV using Xtream Codes API?", 
     answer: "Choose Xtream Codes API in your player and enter the server URL, username, and password from your welcome email." 
   },
   { 
@@ -151,7 +143,7 @@ const faqs: FAQItem[] = [
     answer: (
       <span>
         Yes. MAG and compatible portal devices can be activated using their MAC address. Message our{" "}
-        <Link href="/contact" className="text-[#C084FC] hover:underline font-semibold">
+        <Link href="/contact" className="text-[#38BDF8] hover:underline font-semibold">
           support team on WhatsApp
         </Link>{" "}
         for instant portal setup.
@@ -181,8 +173,8 @@ export default function DeviceSetupGuide() {
             <button 
               className={`inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-xs sm:text-sm font-extrabold uppercase tracking-wider transition-all duration-300 ${
                 active 
-                  ? "bg-gradient-to-r from-[#7C3AED] to-[#4F46E5] text-white shadow-lg shadow-purple-500/30 border border-purple-400/40" 
-                  : "border border-white/10 bg-[#0B0714] text-slate-400 hover:border-purple-500/40 hover:text-white"
+                  ? "bg-gradient-to-r from-[#0284C7] to-[#06B6D4] text-white shadow-lg shadow-sky-500/30 border border-sky-400/40" 
+                  : "border border-white/10 bg-[#0A0F24] text-slate-400 hover:border-sky-500/40 hover:text-white"
               }`} 
               key={item.id} 
               onClick={() => setActiveDevice(item.id)} 
@@ -195,23 +187,23 @@ export default function DeviceSetupGuide() {
       </div>
 
       {/* Active Device Guide Card */}
-      <article className="mx-auto max-w-4xl rounded-3xl border border-white/10 bg-[#0B0714] p-6 sm:p-10 shadow-2xl backdrop-blur-xl">
+      <article className="mx-auto max-w-4xl rounded-3xl border border-white/10 bg-[#0A0F24] p-6 sm:p-10 shadow-2xl backdrop-blur-xl">
         
         {/* Device Header */}
         <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 border-b border-white/10 pb-6 mb-8">
-          <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-purple-500/10 border border-purple-500/20 text-[#C084FC] shrink-0">
+          <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-sky-500/10 border border-sky-500/20 text-[#38BDF8] shrink-0">
             <DeviceIcon className="h-7 w-7" />
           </div>
           <div>
             <h3 className="text-2xl font-black text-white sm:text-3xl tracking-tight">{device.title}</h3>
-            <p className="mt-1 text-xs sm:text-sm text-slate-400 font-medium">Follow these steps to configure your {device.label} for Orexetv.</p>
+            <p className="mt-1 text-xs sm:text-sm text-slate-400 font-medium">Follow these steps to configure your {device.label} for TereaTV.</p>
           </div>
         </div>
         
         {/* Important Note */}
         {device.note && (
-          <div className="mb-8 rounded-2xl border border-purple-500/30 bg-purple-950/20 p-5 flex items-start gap-4">
-            <HelpCircle className="h-5 w-5 text-[#C084FC] shrink-0 mt-0.5" />
+          <div className="mb-8 rounded-2xl border border-sky-500/30 bg-sky-950/20 p-5 flex items-start gap-4">
+            <HelpCircle className="h-5 w-5 text-[#38BDF8] shrink-0 mt-0.5" />
             <div>
               <p className="font-bold text-white text-xs sm:text-sm uppercase tracking-wider mb-1">Important Note</p>
               <p className="text-xs sm:text-sm leading-relaxed text-slate-300">{device.note}</p>
@@ -254,7 +246,7 @@ export default function DeviceSetupGuide() {
           {faqs.map((faq) => (
             <div className="glass-card-hover flex flex-col rounded-2xl overflow-hidden p-6" key={faq.question}>
               <div className="flex items-start gap-3 mb-3">
-                <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-purple-500/10 border border-purple-500/20 text-[#C084FC]">
+                <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-sky-500/10 border border-sky-500/20 text-[#38BDF8]">
                   <HelpCircle className="w-4 h-4" />
                 </div>
                 <h3 className="text-sm sm:text-base font-bold text-white leading-snug">
@@ -274,9 +266,9 @@ export default function DeviceSetupGuide() {
 
 function SetupStep({ children, number, title }: { children: React.ReactNode; number: string; title: string }) {
   return (
-    <div className="flex flex-col sm:flex-row gap-5 bg-[#06040F] border border-white/10 p-6 rounded-2xl transition-colors hover:border-purple-500/40">
+    <div className="flex flex-col sm:flex-row gap-5 bg-[#040714] border border-white/10 p-6 rounded-2xl transition-colors hover:border-sky-500/40">
       <div className="flex flex-1 gap-4 items-start">
-         <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gradient-to-r from-[#7C3AED] to-[#4F46E5] text-xs font-black text-white shadow-md">
+         <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gradient-to-r from-[#0284C7] to-[#06B6D4] text-xs font-black text-white shadow-md">
            {number}
          </span>
          <div className="flex-1">
@@ -292,8 +284,8 @@ function SetupStep({ children, number, title }: { children: React.ReactNode; num
 
 function CodeLine({ label, text }: { label: string; text: string }) {
   return (
-    <div className="rounded-xl bg-[#0B0714] border border-white/10 px-4 py-2.5 font-mono text-xs text-slate-300 break-all flex items-center gap-2">
-      <span className="font-bold text-[#C084FC]">{label}:</span> 
+    <div className="rounded-xl bg-[#0A0F24] border border-white/10 px-4 py-2.5 font-mono text-xs text-slate-300 break-all flex items-center gap-2">
+      <span className="font-bold text-[#38BDF8]">{label}:</span> 
       <span>{text}</span>
     </div>
   );

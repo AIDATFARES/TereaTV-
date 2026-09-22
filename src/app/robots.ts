@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://www.orexetv.vip/sitemap.xml',
+    sitemap: 'https://www.tereatv.top/sitemap.xml',
   };
 }

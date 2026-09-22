@@ -4,7 +4,7 @@ export default function TVMockup() {
   return (
     <div className="relative mx-auto w-full max-w-[1250px] flex items-center justify-center">
       {/* Background Ambient Glow Behind Mockup */}
-      <div className="absolute inset-0 bg-gradient-to-r from-primary-500/25 via-primary-500/30 to-purple-500/25 blur-[100px] rounded-full transform scale-125 pointer-events-none animate-pulse duration-1000" />
+      <div className="absolute inset-0 bg-gradient-to-r from-sky-500/25 via-blue-500/30 to-cyan-500/25 blur-[100px] rounded-full transform scale-125 pointer-events-none animate-pulse duration-1000" />
 
       {/* Floating Animated Container */}
       <div
@@ -12,13 +12,13 @@ export default function TVMockup() {
       >
         <div className="animate-float w-full transition-transform duration-500 filter drop-shadow-[0_25px_50px_rgba(0,0,0,0.7)] group-hover:scale-[1.03] group-hover:-translate-y-2">
           <Image
-            alt="Orexetv Premium 4K IPTV Streaming Ecosystem across Smart TV, Smartphone, Tablet, and Laptop"
-            title="Orexetv Multi-Device Streaming Platform"
-            className="h-auto w-full object-contain filter drop-shadow-[0_12px_30px_rgba(6,182,212,0.2)]"
+            alt="TereaTV Premium 4K IPTV Streaming Ecosystem across Smart TV, Smartphone, Tablet, and Laptop"
+            title="TereaTV Multi-Device Streaming Platform"
+            className="h-auto w-full object-contain filter drop-shadow-[0_12px_30px_rgba(56,189,248,0.25)]"
             height={1000}
             priority
             sizes="(max-width: 1024px) 100vw, 60vw"
-            src="/orexetv-tv-screen.webp"
+            src="/tereatv-tv-screen.webp"
             width={1800}
           />
         </div>

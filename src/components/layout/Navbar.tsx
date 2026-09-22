@@ -30,38 +30,38 @@ export default function Navbar() {
   const getLinkClass = (path: string) => {
     const isActive = pathname === path;
     return isActive 
-      ? "text-[#C084FC] border-b-2 border-[#8B5CF6] pb-1 font-bold transition-colors duration-200" 
-      : "text-slate-300 hover:text-[#C084FC] pb-1 transition-colors duration-200 whitespace-nowrap font-medium";
+      ? "text-[#38BDF8] border-b-2 border-[#0284C7] pb-1 font-bold transition-colors duration-200" 
+      : "text-slate-300 hover:text-[#38BDF8] pb-1 transition-colors duration-200 whitespace-nowrap font-medium";
   };
 
   const getMobileLinkClass = (path: string) => {
     const isActive = pathname === path;
     return isActive
-      ? "text-[#C084FC] py-1 font-bold"
-      : "hover:text-[#C084FC] py-1 transition-colors text-slate-300";
+      ? "text-[#38BDF8] py-1 font-bold"
+      : "hover:text-[#38BDF8] py-1 transition-colors text-slate-300";
   };
 
   return (
     <header
       className={`fixed top-0 left-0 right-0 w-full z-50 transition-all duration-300 flex flex-col ${
         scrolled
-          ? "bg-[#06040F]/95 backdrop-blur-xl border-b border-white/10 shadow-[0_10px_35px_rgba(0,0,0,0.7)]"
-          : "bg-[#06040F]/80 backdrop-blur-md border-b border-white/5"
+          ? "bg-[#040714]/95 backdrop-blur-xl border-b border-white/10 shadow-[0_10px_35px_rgba(0,0,0,0.7)]"
+          : "bg-[#040714]/80 backdrop-blur-md border-b border-white/5"
       }`}
     >
       {/* Promotional Top Bar */}
-      <div className="w-full bg-gradient-to-r from-purple-950/90 via-indigo-950/90 to-purple-950/90 border-b border-purple-500/20 text-white py-2 overflow-hidden flex items-center shadow-sm">
+      <div className="w-full bg-gradient-to-r from-sky-950/90 via-cyan-950/90 to-sky-950/90 border-b border-sky-500/20 text-white py-2 overflow-hidden flex items-center shadow-sm">
         <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
           {[...Array(6)].map((_, i) => (
             <span key={i} className="flex items-center gap-2 px-8 text-xs sm:text-sm font-semibold tracking-wide whitespace-nowrap">
               <span className="dot-blink inline-block" />
               <span>Special Offer: Test our 4K premium service with a</span>
-              <span className="font-extrabold text-[#C084FC] underline uppercase tracking-wider">Free 24h Trial</span>! 
+              <span className="font-extrabold text-[#38BDF8] underline uppercase tracking-wider">Free 24h Trial</span>! 
               <a 
-                href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20orexetv%20IPTV." 
+                href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20TereaTV%20IPTV." 
                 target="_blank" 
                 rel="noreferrer"
-                className="inline-block ml-2 bg-gradient-to-r from-[#7C3AED] to-[#4F46E5] text-white px-3.5 py-1 rounded-full text-[10px] sm:text-xs font-bold hover:from-[#8B5CF6] hover:to-[#6366F1] transition-all shadow-sm"
+                className="inline-block ml-2 bg-gradient-to-r from-[#0284C7] to-[#06B6D4] text-white px-3.5 py-1 rounded-full text-[10px] sm:text-xs font-bold hover:from-[#0EA5E9] hover:to-[#22D3EE] transition-all shadow-sm"
               >
                 Claim Now ➔
               </a>
@@ -102,7 +102,7 @@ export default function Navbar() {
         {/* RIGHT ACTIONS */}
         <div className="hidden lg:flex items-center gap-4 shrink-0 z-20">
           <a
-            href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20orexetv%20IPTV."
+            href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20TereaTV%20IPTV."
             target="_blank"
             rel="noreferrer"
             className="btn-primary-voltra px-6 py-2.5 text-xs uppercase tracking-wider"
@@ -123,7 +123,7 @@ export default function Navbar() {
 
       {/* MOBILE DROPDOWN MENU */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-[#0B0714] border-b border-white/10 px-6 py-6 space-y-4 animate-in slide-in-from-top duration-300">
+        <div className="lg:hidden bg-[#070C1E] border-b border-white/10 px-6 py-6 space-y-4 animate-in slide-in-from-top duration-300">
           <nav className="flex flex-col space-y-3 font-semibold text-sm">
             <Link href="/" onClick={handleLogoClick} className={getMobileLinkClass("/")}>Home</Link>
             <Link href="/pricing" onClick={() => setMobileMenuOpen(false)} className={getMobileLinkClass("/pricing")}>Pricing</Link>
@@ -134,7 +134,7 @@ export default function Navbar() {
           </nav>
           <div className="pt-4 border-t border-white/10 flex flex-col gap-3">
             <a
-              href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20orexetv%20IPTV."
+              href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20TereaTV%20IPTV."
               target="_blank"
               rel="noreferrer"
               className="w-full text-center py-3 btn-primary-voltra text-xs uppercase tracking-wider"

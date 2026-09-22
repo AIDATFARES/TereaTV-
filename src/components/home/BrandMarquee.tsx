@@ -19,8 +19,8 @@ function getAccessibleImageDetails(folder: string, filename: string) {
       ? cleanName.split(" ").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ")
       : "Streaming Device";
     return {
-      alt: `Orexetv Compatible Device: ${formattedDevice}`,
-      title: `Watch Orexetv on ${formattedDevice}`,
+      alt: `TereaTV Compatible Device: ${formattedDevice}`,
+      title: `Watch TereaTV on ${formattedDevice}`,
     };
   }
 
@@ -29,8 +29,8 @@ function getAccessibleImageDetails(folder: string, filename: string) {
     : "Live Sports & Entertainment Network";
 
   return {
-    alt: `Orexetv 4K Live Broadcast Channel: ${formattedChannel}`,
-    title: `Stream ${formattedChannel} on Orexetv`,
+    alt: `TereaTV 4K Live Broadcast Channel: ${formattedChannel}`,
+    title: `Stream ${formattedChannel} on TereaTV`,
   };
 }
 
@@ -62,7 +62,7 @@ export default function BrandMarquee({
           return (
             <div 
               key={i} 
-              className={cardClassName || "flex-shrink-0 w-[110px] h-[55px] md:w-[145px] md:h-[68px] relative bg-white rounded-xl p-3 border border-white/10 hover:border-purple-400/60 hover:scale-105 transition-all duration-300 shadow-[0_4px_20px_rgba(0,0,0,0.35)] flex items-center justify-center cursor-pointer"}
+              className={cardClassName || "flex-shrink-0 w-[110px] h-[55px] md:w-[145px] md:h-[68px] relative bg-white rounded-xl p-3 border border-white/10 hover:border-sky-400/60 hover:scale-105 transition-all duration-300 shadow-[0_4px_20px_rgba(0,0,0,0.35)] flex items-center justify-center cursor-pointer"}
             >
               <div className="relative w-full h-full overflow-hidden rounded-lg">
                 <Image 

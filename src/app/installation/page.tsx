@@ -4,31 +4,31 @@ import BrandMarquee from "@/components/home/BrandMarquee";
 import { Clock3, Download, Headphones, Link2, Monitor, PlayCircle } from "lucide-react";
 
 export const metadata = {
-  title: "IPTV Setup Guide for Firestick, Smart TV & Android | Orexetv",
+  title: "IPTV Setup Guide for Firestick, Smart TV & Android | TereaTV",
   description:
-    "Quick 5-minute setup instructions for your Smart TV, Fire TV Stick, Android Box, Apple TV & PC. Easy M3U & Xtream Codes setup guides with Orexetv.",
+    "Quick 5-minute setup instructions for your Smart TV, Fire TV Stick, Android Box, Apple TV & PC. Easy M3U & Xtream Codes setup guides with TereaTV.",
   alternates: {
     canonical: "/installation",
   },
   openGraph: {
-    title: "IPTV Setup Guide for Firestick, Smart TV & Android | Orexetv",
+    title: "IPTV Setup Guide for Firestick, Smart TV & Android | TereaTV",
     description:
-      "Quick 5-minute setup instructions for your Smart TV, Fire TV Stick, Android Box, Apple TV & PC. Easy M3U & Xtream Codes setup guides with Orexetv.",
-    url: "https://www.orexetv.vip/installation",
+      "Quick 5-minute setup instructions for your Smart TV, Fire TV Stick, Android Box, Apple TV & PC. Easy M3U & Xtream Codes setup guides with TereaTV.",
+    url: "https://www.tereatv.top/installation",
   },
   twitter: {
     card: "summary_large_image",
-    title: "IPTV Setup Guide for Firestick, Smart TV & Android | Orexetv",
+    title: "IPTV Setup Guide for Firestick, Smart TV & Android | TereaTV",
     description:
-      "Quick 5-minute setup instructions for your Smart TV, Fire TV Stick, Android Box, Apple TV & PC. Easy M3U & Xtream Codes setup guides with Orexetv.",
+      "Quick 5-minute setup instructions for your Smart TV, Fire TV Stick, Android Box, Apple TV & PC. Easy M3U & Xtream Codes setup guides with TereaTV.",
   },
 };
 
 export default function Installation() {
   return (
-    <main className="min-h-screen bg-[#06040F] text-white pt-6 sm:pt-10 pb-24 relative overflow-hidden bg-grid-pattern">
+    <main className="min-h-screen bg-[#040714] text-white pt-6 sm:pt-10 pb-24 relative overflow-hidden bg-grid-pattern">
       {/* Ambient Lighting Orbs */}
-      <div className="pointer-events-none absolute top-[6%] left-1/2 -translate-x-1/2 w-[850px] h-[400px] bg-[radial-gradient(circle,rgba(124,58,237,0.15)_0%,transparent_70%)]" />
+      <div className="pointer-events-none absolute top-[6%] left-1/2 -translate-x-1/2 w-[850px] h-[400px] bg-[radial-gradient(circle,rgba(2,132,199,0.15)_0%,transparent_70%)]" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
@@ -38,49 +38,49 @@ export default function Installation() {
             <span className="dot-blink" /> Installation Guide
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.08] tracking-tight uppercase">
-            <span className="block text-white">Orexetv IPTV Installation Guide:</span>
-            <span className="mt-2 block bg-gradient-to-r from-[#C084FC] via-[#818CF8] to-[#22D3EE] bg-clip-text text-transparent">
+            <span className="block text-white">TereaTV IPTV Installation Guide:</span>
+            <span className="mt-2 block bg-gradient-to-r from-[#38BDF8] via-[#0EA5E9] to-[#00F0FF] bg-clip-text text-transparent">
               Setup on Any Device Quickly
             </span>
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-slate-300">
-            Comprehensive step-by-step instructions to configure Orexetv on all your devices.
+            Comprehensive step-by-step instructions to configure TereaTV on all your devices.
           </p>
           <p className="mx-auto mt-2 max-w-2xl text-xs sm:text-sm text-slate-400">
-            Orexetv works on Smart TVs, Firestick, Android, iOS, MAG, and more. New to Orexetv? Check{" "}
-            <Link className="font-bold text-[#C084FC] hover:underline" href="/pricing">Orexetv Pricing</Link>, or browse the{" "}
-            <Link className="font-bold text-[#C084FC] hover:underline" href="/channels">Orexetv Channel List</Link> before you start.
+            TereaTV works on Smart TVs, Firestick, Android, iOS, MAG, and more. New to TereaTV? Check{" "}
+            <Link className="font-bold text-[#38BDF8] hover:underline" href="/pricing">TereaTV Pricing</Link>, or browse the{" "}
+            <Link className="font-bold text-[#38BDF8] hover:underline" href="/channels">TereaTV Channel List</Link> before you start.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-x-8 gap-y-3 text-xs sm:text-sm font-bold text-slate-300">
-            <span className="inline-flex items-center gap-2 rounded-full bg-[#0B0714] border border-white/10 px-4 py-2">
-              <Monitor className="h-4 w-4 text-[#22D3EE]" /> 15+ Devices Supported
+            <span className="inline-flex items-center gap-2 rounded-full bg-[#0A0F24] border border-white/10 px-4 py-2">
+              <Monitor className="h-4 w-4 text-[#00F0FF]" /> 15+ Devices Supported
             </span>
-            <span className="inline-flex items-center gap-2 rounded-full bg-[#0B0714] border border-white/10 px-4 py-2">
-              <Clock3 className="h-4 w-4 text-[#C084FC]" /> 5–15 Minutes Setup
+            <span className="inline-flex items-center gap-2 rounded-full bg-[#0A0F24] border border-white/10 px-4 py-2">
+              <Clock3 className="h-4 w-4 text-[#38BDF8]" /> 5–15 Minutes Setup
             </span>
-            <span className="inline-flex items-center gap-2 rounded-full bg-[#0B0714] border border-white/10 px-4 py-2">
+            <span className="inline-flex items-center gap-2 rounded-full bg-[#0A0F24] border border-white/10 px-4 py-2">
               <Headphones className="h-4 w-4 text-emerald-400" /> 24/7 Support Available
             </span>
           </div>
         </header>
 
         {/* Quick Start Guide Section */}
-        <section className="mb-20 rounded-3xl border border-white/10 bg-[#0B0714] p-8 sm:p-14 shadow-2xl backdrop-blur-xl">
+        <section className="mb-20 rounded-3xl border border-white/10 bg-[#0A0F24] p-8 sm:p-14 shadow-2xl backdrop-blur-xl">
           <header className="mx-auto mb-12 max-w-xl text-center">
             <h2 className="text-2xl sm:text-4xl font-black tracking-tight text-white uppercase">Quick Start Guide in 3 Steps</h2>
-            <p className="mt-2 text-sm text-slate-400">Get started with Orexetv quickly and easily in three straightforward steps.</p>
+            <p className="mt-2 text-sm text-slate-400">Get started with TereaTV quickly and easily in three straightforward steps.</p>
           </header>
           <div className="grid gap-8 md:grid-cols-3">
             <QuickStartCard icon={Download} step="1" title="Download App">
               Download and install a top IPTV player like{" "}
-              <Link href="/blog/best-iptv-devices" className="text-[#C084FC] hover:underline font-semibold">
+              <Link href="/installation" className="text-[#38BDF8] hover:underline font-semibold">
                 IPTV Smarters or TiviMate
               </Link>{" "}
               from your device app store.
             </QuickStartCard>
             <QuickStartCard icon={Link2} step="2" title="Add M3U URL">
-              Input your Orexetv M3U playlist URL or Xtream Codes, sent immediately after ordering a{" "}
-              <Link href="/pricing" className="text-[#818CF8] hover:underline font-semibold">
+              Input your TereaTV M3U playlist URL or Xtream Codes, sent immediately after ordering a{" "}
+              <Link href="/pricing" className="text-[#38BDF8] hover:underline font-semibold">
                 subscription plan
               </Link>
               .
@@ -91,7 +91,7 @@ export default function Installation() {
                 50,000+ live channels
               </Link>{" "}
               and movies with{" "}
-              <Link href="/blog/how-to-fix-iptv-buffering" className="text-[#4CFF91] hover:underline font-semibold">
+              <Link href="/faq" className="text-[#00F0FF] hover:underline font-semibold">
                 zero buffering
               </Link>
               .
@@ -118,7 +118,7 @@ export default function Installation() {
                 "windows-pc.webp",
                 "xbox-console.webp"
               ]}
-              cardClassName="flex-shrink-0 w-[150px] h-[75px] md:w-[200px] md:h-[90px] relative bg-[#06040F] border border-white/10 rounded-2xl p-4 hover:border-purple-500/50 transition-all duration-300 shadow-md flex items-center justify-center"
+              cardClassName="flex-shrink-0 w-[150px] h-[75px] md:w-[200px] md:h-[90px] relative bg-[#040714] border border-white/10 rounded-2xl p-4 hover:border-sky-500/50 transition-all duration-300 shadow-md flex items-center justify-center"
               imageClassName="object-contain drop-shadow-sm brightness-90 hover:brightness-100"
             />
           </div>
@@ -128,11 +128,11 @@ export default function Installation() {
         <DeviceSetupGuide />
 
         {/* Bottom Help Section */}
-        <section className="mx-auto mt-20 max-w-2xl text-center rounded-3xl border border-white/10 bg-[#0B0714] p-10 shadow-xl backdrop-blur-xl">
-          <h2 className="text-2xl font-black text-white uppercase tracking-tight">Need Help Setting Up Orexetv IPTV?</h2>
+        <section className="mx-auto mt-20 max-w-2xl text-center rounded-3xl border border-white/10 bg-[#0A0F24] p-10 shadow-xl backdrop-blur-xl">
+          <h2 className="text-2xl font-black text-white uppercase tracking-tight">Need Help Setting Up TereaTV IPTV?</h2>
           <p className="mt-2 text-sm text-slate-400">
             Our technical support team is available 24/7 on WhatsApp to assist you with installation. You can also explore our{" "}
-            <Link href="/faq" className="text-[#C084FC] hover:underline font-semibold">
+            <Link href="/faq" className="text-[#38BDF8] hover:underline font-semibold">
               troubleshooting FAQ
             </Link>{" "}
             for instant answers.
@@ -152,10 +152,10 @@ export default function Installation() {
 function QuickStartCard({ children, icon: Icon, step, title }: { children: React.ReactNode; icon: typeof Download; step: string; title: string }) {
   return (
     <article className="glass-card-hover flex flex-col rounded-2xl p-8 text-center items-center">
-      <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-purple-500/10 border border-purple-500/20 text-[#C084FC] mb-5">
+      <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-sky-500/10 border border-sky-500/20 text-[#38BDF8] mb-5">
         <Icon className="h-7 w-7" strokeWidth={1.8} />
       </div>
-      <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-gradient-to-r from-[#7C3AED] to-[#4F46E5] text-xs font-black text-white shadow-md mb-3">
+      <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-gradient-to-r from-[#0284C7] to-[#06B6D4] text-xs font-black text-white shadow-md mb-3">
         {step}
       </span>
       <h3 className="text-lg font-bold text-white mb-2">{title}</h3>

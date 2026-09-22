@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { blogPosts } from '@/data/blog';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.orexetv.vip'; // Update to your production URL
+  const baseUrl = 'https://www.tereatv.top';
 
   // Define static routes
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -53,7 +53,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Map dynamic blog routes
   const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: new Date(post.date), // Requires standard date format in blog.ts if sorting, but fine as a string
+    lastModified: new Date(post.date),
     changeFrequency: 'monthly',
     priority: 0.7,
   }));

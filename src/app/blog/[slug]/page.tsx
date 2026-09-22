@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = blogPosts.find((p) => p.slug === resolvedParams.slug);
 
   if (!post) {
-    return { title: 'Post Not Found | Orexetv' };
+    return { title: 'Post Not Found | TereaTV' };
   }
 
   return {
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     openGraph: {
       title: post.title,
       description: post.description,
-      url: `https://www.orexetv.vip/blog/${post.slug}`,
+      url: `https://www.tereatv.top/blog/${post.slug}`,
       type: "article",
       images: post.coverImage
         ? [
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
               url: post.coverImage,
               width: 1200,
               height: 630,
-              alt: `Orexetv Guide - ${post.title}`,
+              alt: `TereaTV Guide - ${post.title}`,
             },
           ]
         : undefined,
@@ -92,7 +92,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     "@type": "BlogPosting",
     headline: post.title,
     description: post.description,
-    image: post.coverImage ? `https://www.orexetv.vip${post.coverImage}` : undefined,
+    image: post.coverImage ? `https://www.tereatv.top${post.coverImage}` : undefined,
     datePublished: post.date,
     author: {
       "@type": "Person",
@@ -100,15 +100,15 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     },
     publisher: {
       "@type": "Organization",
-      name: "Orexetv",
+      name: "TereaTV",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.orexetv.vip/icon-192.png",
+        url: "https://www.tereatv.top/icon-192.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://www.orexetv.vip/blog/${post.slug}`,
+      "@id": `https://www.tereatv.top/blog/${post.slug}`,
     },
   };
 
@@ -137,13 +137,13 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     ol: (props: any) => <ol className="list-decimal pl-6 mb-6 space-y-2 text-slate-300 text-sm sm:text-base" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    a: (props: any) => <a className="text-[#C084FC] hover:underline font-bold transition-colors" {...props} />,
+    a: (props: any) => <a className="text-[#00F0FF] hover:underline font-bold transition-colors" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    blockquote: (props: any) => <blockquote className="border-l-4 border-[#8B5CF6] pl-4 py-2 mb-6 italic bg-purple-950/20 text-slate-200 rounded-r" {...props} />,
+    blockquote: (props: any) => <blockquote className="border-l-4 border-[#0EA5E9] pl-4 py-2 mb-6 italic bg-cyan-950/20 text-slate-200 rounded-r" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     table: (props: any) => <div className="overflow-x-auto mb-8"><table className="w-full text-left border-collapse border border-white/10" {...props} /></div>,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    th: (props: any) => <th className="border-b border-white/10 py-3 px-4 font-bold text-white bg-[#06040F]" {...props} />,
+    th: (props: any) => <th className="border-b border-white/10 py-3 px-4 font-bold text-white bg-[#040714]" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     td: (props: any) => <td className="border-b border-white/5 py-3 px-4 text-slate-300 text-sm" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -157,9 +157,9 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   };
 
   return (
-    <main className="min-h-screen bg-[#06040F] text-white pt-6 sm:pt-10 pb-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto w-full relative z-10 bg-grid-pattern overflow-hidden">
+    <main className="min-h-screen bg-[#040714] text-white pt-6 sm:pt-10 pb-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto w-full relative z-10 bg-grid-pattern overflow-hidden">
       {/* Ambient Lighting Orbs */}
-      <div className="pointer-events-none absolute top-10 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-[radial-gradient(circle,rgba(124,58,237,0.15)_0%,transparent_70%)]" />
+      <div className="pointer-events-none absolute top-10 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-[radial-gradient(circle,rgba(2,132,199,0.15)_0%,transparent_70%)]" />
 
       <script
         type="application/ld+json"
@@ -173,14 +173,14 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         />
       )}
 
-      <Link href="/blog" className="inline-flex items-center text-[#C084FC] hover:text-white mb-8 transition-colors group font-bold text-xs uppercase tracking-wider">
+      <Link href="/blog" className="inline-flex items-center text-[#00F0FF] hover:text-white mb-8 transition-colors group font-bold text-xs uppercase tracking-wider">
         <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
         Back to Blog
       </Link>
 
-      <article className="rounded-3xl border border-white/10 bg-[#0B0714] p-6 md:p-12 shadow-2xl backdrop-blur-xl">
+      <article className="rounded-3xl border border-cyan-500/20 bg-[#0A0F24]/80 p-6 md:p-12 shadow-2xl backdrop-blur-xl">
         <header className="mb-10 text-center">
-          <span className="inline-block px-3.5 py-1 bg-purple-500/20 text-[#C084FC] rounded-full text-xs font-black uppercase tracking-wider mb-4 border border-purple-500/30">
+          <span className="inline-block px-3.5 py-1 bg-cyan-500/10 text-[#00F0FF] rounded-full text-xs font-black uppercase tracking-wider mb-4 border border-cyan-500/30">
             {post.category}
           </span>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-white mb-6 uppercase tracking-tight leading-tight">
@@ -194,11 +194,11 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         </header>
 
         {post.coverImage && (
-          <div className="mb-12 rounded-2xl overflow-hidden relative w-full h-[280px] md:h-[460px] border border-white/10">
+          <div className="mb-12 rounded-2xl overflow-hidden relative w-full h-[280px] md:h-[460px] border border-cyan-500/20">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={post.coverImage}
-              alt={`Orexetv Editorial Guide: ${post.title}`}
+              alt={`TereaTV Editorial Guide: ${post.title}`}
               title={post.title}
               className="w-full h-full object-cover"
             />
@@ -237,19 +237,19 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {relatedPosts.map((relPost) => (
                 <Link href={`/blog/${relPost.slug}`} key={relPost.id}>
-                  <article className="glass-card-hover rounded-2xl overflow-hidden flex flex-col group cursor-pointer h-full">
+                  <article className="glass-card-hover rounded-2xl overflow-hidden flex flex-col group cursor-pointer h-full border border-cyan-500/15 bg-[#0A0F24]/60">
                     <div className="h-40 relative overflow-hidden shrink-0">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                        alt={`Orexetv Guide: ${relPost.title}`}
+                        alt={`TereaTV Guide: ${relPost.title}`}
                         title={relPost.title}
                         src={relPost.coverImage || "/blog/choose-iptv-service-hero.jpg"}
                       />
                     </div>
                     <div className="p-5 flex flex-col flex-grow">
-                      <span className="text-[10px] text-[#C084FC] font-extrabold uppercase tracking-wider mb-2">{relPost.category}</span>
-                      <h3 className="text-sm font-bold text-white mb-2 line-clamp-2 group-hover:text-[#C084FC] transition-colors leading-snug">
+                      <span className="text-[10px] text-[#00F0FF] font-extrabold uppercase tracking-wider mb-2">{relPost.category}</span>
+                      <h3 className="text-sm font-bold text-white mb-2 line-clamp-2 group-hover:text-[#00F0FF] transition-colors leading-snug">
                         {relPost.title}
                       </h3>
                       <p className="text-xs text-slate-400 line-clamp-2 mt-auto">

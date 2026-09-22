@@ -22,23 +22,23 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Orexetv — The Best IPTV Service | 4K Sports & 50K+ Channels",
-  description: "Join Orexetv, the best IPTV service in 2026. Stream 50,000+ live channels & 200K VODs in 4K 60FPS with Anti-Freeze tech. Instant activation from just $4.20/mo!",
-  metadataBase: new URL("https://www.orexetv.vip"),
+  title: "TereaTV — The Best IPTV Service | 4K Sports & 50K+ Channels",
+  description: "Join TereaTV, the best IPTV service in 2026. Stream 50,000+ live channels & 200K VODs in 4K 60FPS with Anti-Freeze tech. Instant activation from just $4.20/mo!",
+  metadataBase: new URL("https://www.tereatv.top"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Orexetv — The Best IPTV Service | 4K Sports & 50K+ Channels",
-    description: "Join Orexetv, the best IPTV service in 2026. Stream 50,000+ live channels & 200K VODs in 4K 60FPS with Anti-Freeze tech. Instant activation from just $4.20/mo!",
-    url: "https://www.orexetv.vip",
-    siteName: "Orexetv",
+    title: "TereaTV — The Best IPTV Service | 4K Sports & 50K+ Channels",
+    description: "Join TereaTV, the best IPTV service in 2026. Stream 50,000+ live channels & 200K VODs in 4K 60FPS with Anti-Freeze tech. Instant activation from just $4.20/mo!",
+    url: "https://www.tereatv.top",
+    siteName: "TereaTV",
     images: [
       {
-        url: "/og-image-orexetv-v2.webp",
+        url: "/og-image-tereatv-v2.webp",
         width: 1200,
         height: 630,
-        alt: "Orexetv — Premium 4K IPTV Service with 50,000+ Channels & VOD",
+        alt: "TereaTV — Premium 4K IPTV Service with 50,000+ Channels & VOD",
       },
     ],
     locale: "en_US",
@@ -46,9 +46,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Orexetv — The Best IPTV Service | 4K Sports & 50K+ Channels",
-    description: "Join Orexetv, the best IPTV service in 2026. Stream 50,000+ live channels & 200K VODs in 4K 60FPS with Anti-Freeze tech. Instant activation from just $4.20/mo!",
-    images: ["/og-image-orexetv-v2.webp"],
+    title: "TereaTV — The Best IPTV Service | 4K Sports & 50K+ Channels",
+    description: "Join TereaTV, the best IPTV service in 2026. Stream 50,000+ live channels & 200K VODs in 4K 60FPS with Anti-Freeze tech. Instant activation from just $4.20/mo!",
+    images: ["/og-image-tereatv-v2.webp"],
   },
   icons: {
     icon: [
@@ -66,26 +66,26 @@ const organizationSchema = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://www.orexetv.vip/#organization",
-      "name": "Orexetv",
-      "url": "https://www.orexetv.vip",
+      "@id": "https://www.tereatv.top/#organization",
+      "name": "TereaTV",
+      "url": "https://www.tereatv.top",
       "logo": {
         "@type": "ImageObject",
-        "@id": "https://www.orexetv.vip/#logo",
-        "url": "https://www.orexetv.vip/icon-192.png",
-        "caption": "Orexetv IPTV Brand Logo",
+        "@id": "https://www.tereatv.top/#logo",
+        "url": "https://www.tereatv.top/icon-192.png",
+        "caption": "TereaTV IPTV Brand Logo",
       },
       "image": {
-        "@id": "https://www.orexetv.vip/#logo",
+        "@id": "https://www.tereatv.top/#logo",
       },
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.orexetv.vip/#website",
-      "url": "https://www.orexetv.vip",
-      "name": "Orexetv",
+      "@id": "https://www.tereatv.top/#website",
+      "url": "https://www.tereatv.top",
+      "name": "TereaTV",
       "publisher": {
-        "@id": "https://www.orexetv.vip/#organization",
+        "@id": "https://www.tereatv.top/#organization",
       },
     },
   ],
@@ -104,22 +104,22 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
       </head>
-      <body className="bg-[#06040F] text-slate-100 min-h-screen flex flex-col antialiased selection:bg-[#7C3AED] selection:text-white bg-grid-pattern">
+      <body className="bg-[#040714] text-slate-100 min-h-screen flex flex-col antialiased selection:bg-[#0284C7] selection:text-white bg-grid-pattern">
         {/* Navbar Component */}
         <Navbar />
 
         <div className="flex-grow pt-[102px] sm:pt-[118px] flex flex-col">{children}</div>
 
         {/* Footer */}
-        <footer className="w-full mt-auto border-t border-white/10 bg-[#06040F] relative overflow-hidden">
-          {/* Ambient Purple Background Glow */}
-          <div className="pointer-events-none absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-purple-900/10 blur-[130px] rounded-full" />
+        <footer className="w-full mt-auto border-t border-white/10 bg-[#040714] relative overflow-hidden">
+          {/* Ambient Cyan/Blue Background Glow */}
+          <div className="pointer-events-none absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-sky-600/10 blur-[130px] rounded-full" />
 
           <div className="relative z-10 grid max-w-[1400px] grid-cols-2 gap-x-4 gap-y-12 px-6 py-16 sm:grid-cols-4 sm:gap-x-8 sm:px-10 xl:grid-cols-[1.8fr_1fr_1fr_1fr_1fr] xl:gap-10 xl:px-12 mx-auto">
             <div className="col-span-2 sm:col-span-4 xl:col-span-1 min-w-0 max-w-[310px] space-y-4">
               <Link href="/"><BrandLogo /></Link>
               <p className="max-w-[285px] whitespace-normal break-normal text-sm leading-6 text-slate-400">
-                © 2026 Orexetv. Premium 4K IPTV Streaming Services. All rights reserved.
+                © 2026 TereaTV. Premium 4K IPTV Streaming Services. All rights reserved.
               </p>
               <a href="https://wa.me/213552069874" target="_blank" rel="noreferrer" className="flex max-w-[270px] items-center gap-3 rounded-2xl border border-[#25D366]/30 bg-[#25D366]/[0.08] p-3.5 transition-colors hover:bg-[#25D366]/[0.15] group">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#25D366] text-white shadow-lg shadow-[#25D366]/20 transition-transform group-hover:scale-105">
@@ -133,50 +133,50 @@ export default function RootLayout({
                 </span>
               </a>
               <p className="flex items-center gap-2 text-[10px] font-semibold uppercase tracking-wider text-slate-400">
-                <span className="h-2 w-2 rounded-full bg-[#4CFF91] shadow-[0_0_8px_#4CFF91] animate-pulse" /> All servers online · 99.9% uptime
+                <span className="h-2 w-2 rounded-full bg-[#00F0FF] shadow-[0_0_8px_#00F0FF] animate-pulse" /> All servers online · 99.9% uptime
               </p>
             </div>
             
             <div className="col-span-1 min-w-0 space-y-6">
               <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-slate-300">
-                <span className="border-b-2 border-[#8B5CF6] pb-1.5">NAVIGATION</span>
+                <span className="border-b-2 border-[#0284C7] pb-1.5">NAVIGATION</span>
               </p>
               <ul className="space-y-3 font-body-sm text-sm">
-                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#C084FC]" href="/">Home</Link></li>
-                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#C084FC]" href="/pricing">Pricing</Link></li>
-                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#C084FC]" href="/how-it-works">How It Works</Link></li>
-                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#C084FC]" href="/channels">Channels</Link></li>
-                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#C084FC]" href="/reseller">Reseller</Link></li>
+                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#38BDF8]" href="/">Home</Link></li>
+                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#38BDF8]" href="/pricing">Pricing</Link></li>
+                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#38BDF8]" href="/how-it-works">How It Works</Link></li>
+                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#38BDF8]" href="/channels">Channels</Link></li>
+                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#38BDF8]" href="/reseller">Reseller</Link></li>
               </ul>
             </div>
             
             <div className="col-span-1 min-w-0 space-y-6">
               <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-slate-300">
-                <span className="border-b-2 border-[#8B5CF6] pb-1.5">SERVICE</span>
+                <span className="border-b-2 border-[#0284C7] pb-1.5">SERVICE</span>
               </p>
               <ul className="space-y-3 font-body-sm text-sm">
-                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#C084FC]" href="/pricing">Get Started</Link></li>
-                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#C084FC]" href="/contact">Contact Support</Link></li>
-                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#C084FC]" href="/faq">FAQ</Link></li>
-                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#C084FC]" href="/blog">Blog</Link></li>
-                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#C084FC]" href="/installation">Setup Guide</Link></li>
+                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#38BDF8]" href="/pricing">Get Started</Link></li>
+                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#38BDF8]" href="/contact">Contact Support</Link></li>
+                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#38BDF8]" href="/faq">FAQ</Link></li>
+                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#38BDF8]" href="/blog">Blog</Link></li>
+                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#38BDF8]" href="/installation">Setup Guide</Link></li>
               </ul>
             </div>
             
             <div className="col-span-1 min-w-0 space-y-6">
               <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-slate-300">
-                <span className="border-b-2 border-[#8B5CF6] pb-1.5">LEGAL</span>
+                <span className="border-b-2 border-[#0284C7] pb-1.5">LEGAL</span>
               </p>
               <ul className="space-y-3 text-sm">
-                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#C084FC]" href="/privacy-policy">Privacy Policy</Link></li>
-                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#C084FC]" href="/refund-policy">Refund Policy</Link></li>
-                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#C084FC]" href="/dmca">DMCA</Link></li>
+                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#38BDF8]" href="/privacy-policy">Privacy Policy</Link></li>
+                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#38BDF8]" href="/refund-policy">Refund Policy</Link></li>
+                <li><Link prefetch={false} className="text-slate-400 transition-colors hover:text-[#38BDF8]" href="/dmca">DMCA</Link></li>
               </ul>
             </div>
             
             <div className="col-span-1 min-w-0 space-y-6">
               <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-slate-300">
-                <span className="border-b-2 border-[#8B5CF6] pb-1.5">PAYMENT</span>
+                <span className="border-b-2 border-[#0284C7] pb-1.5">PAYMENT</span>
               </p>
               <ul className="space-y-3 text-sm text-slate-400">
                 <li className="flex items-center gap-2"><span>💳</span> PayPal</li>
@@ -188,9 +188,9 @@ export default function RootLayout({
             
             <div className="col-span-2 mt-8 flex flex-col gap-6 border-t border-white/10 pt-8 text-xs text-slate-400 sm:col-span-4 md:flex-row md:items-center md:justify-between xl:col-span-5">
               <div className="flex flex-wrap gap-3">
-                <Link className="rounded-full border border-white/10 px-4 py-2 transition-colors hover:bg-purple-600/15 hover:text-[#C084FC] hover:border-purple-500/30" href="/privacy-policy">Privacy Policy</Link>
-                <Link className="rounded-full border border-white/10 px-4 py-2 transition-colors hover:bg-purple-600/15 hover:text-[#C084FC] hover:border-purple-500/30" href="/refund-policy">Refund Policy</Link>
-                <Link className="rounded-full border border-white/10 px-4 py-2 transition-colors hover:bg-purple-600/15 hover:text-[#C084FC] hover:border-purple-500/30" href="/dmca">DMCA</Link>
+                <Link className="rounded-full border border-white/10 px-4 py-2 transition-colors hover:bg-sky-600/15 hover:text-[#38BDF8] hover:border-sky-500/30" href="/privacy-policy">Privacy Policy</Link>
+                <Link className="rounded-full border border-white/10 px-4 py-2 transition-colors hover:bg-sky-600/15 hover:text-[#38BDF8] hover:border-sky-500/30" href="/refund-policy">Refund Policy</Link>
+                <Link className="rounded-full border border-white/10 px-4 py-2 transition-colors hover:bg-sky-600/15 hover:text-[#38BDF8] hover:border-sky-500/30" href="/dmca">DMCA</Link>
               </div>
             </div>
           </div>

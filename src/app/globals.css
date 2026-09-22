@@ -1,54 +1,54 @@
 @import "tailwindcss";
 
 @theme {
-  --color-surface: #0B0714;
-  --color-surface-dim: #080511;
-  --color-surface-bright: #150E24;
-  --color-surface-container-lowest: #06040F;
-  --color-surface-container-low: #0A0617;
-  --color-surface-container: #10091B;
-  --color-surface-container-high: #190E2C;
-  --color-surface-container-highest: #23143D;
+  --color-surface: #0A0F24;
+  --color-surface-dim: #060A1A;
+  --color-surface-bright: #101938;
+  --color-surface-container-lowest: #040714;
+  --color-surface-container-low: #070C1E;
+  --color-surface-container: #0C142E;
+  --color-surface-container-high: #131E42;
+  --color-surface-container-highest: #1B2956;
   --color-on-surface: #FFFFFF;
-  --color-on-surface-variant: #B6B0C2;
+  --color-on-surface-variant: #94A3B8;
   --color-inverse-surface: #F8FAFC;
-  --color-inverse-on-surface: #0B0714;
+  --color-inverse-on-surface: #040714;
   --color-outline: rgba(255, 255, 255, 0.12);
-  --color-outline-variant: rgba(139, 92, 246, 0.2);
-  --color-surface-tint: #8B5CF6;
-  --color-primary: #7C3AED;
+  --color-outline-variant: rgba(56, 189, 248, 0.2);
+  --color-surface-tint: #0284C7;
+  --color-primary: #0284C7;
   --color-on-primary: #FFFFFF;
-  --color-primary-container: #8B5CF6;
+  --color-primary-container: #0EA5E9;
   --color-on-primary-container: #FFFFFF;
-  --color-inverse-primary: #C084FC;
-  --color-secondary: #4F46E5;
+  --color-inverse-primary: #38BDF8;
+  --color-secondary: #06B6D4;
   --color-on-secondary: #FFFFFF;
-  --color-secondary-container: #6366F1;
-  --color-on-secondary-container: #FFFFFF;
-  --color-tertiary: #06B6D4;
+  --color-secondary-container: #22D3EE;
+  --color-on-secondary-container: #083344;
+  --color-tertiary: #10B981;
   --color-on-tertiary: #FFFFFF;
-  --color-tertiary-container: #22D3EE;
-  --color-on-tertiary-container: #083344;
+  --color-tertiary-container: #34D399;
+  --color-on-tertiary-container: #064E3B;
   --color-error: #EF4444;
   --color-on-error: #FFFFFF;
   --color-error-container: rgba(239, 68, 68, 0.2);
   --color-on-error-container: #FCA5A5;
-  --color-background: #06040F;
+  --color-background: #040714;
   --color-on-background: #FFFFFF;
-  --color-surface-variant: #160D27;
+  --color-surface-variant: #0F172A;
 
-  /* Brand Colors - Orexetv Premium Purple & Indigo Palette */
-  --color-primary-300: #C084FC;
-  --color-primary-400: #A855F7;
-  --color-primary-500: #8B5CF6;
-  --color-primary-600: #7C3AED;
+  /* Brand Colors - TereaTV Electric Blue & Cyan Palette */
+  --color-primary-300: #7DD3FC;
+  --color-primary-400: #38BDF8;
+  --color-primary-500: #0EA5E9;
+  --color-primary-600: #0284C7;
   
-  --color-secondary-400: #818CF8;
-  --color-secondary-500: #6366F1;
-  --color-secondary-600: #4F46E5;
+  --color-secondary-400: #22D3EE;
+  --color-secondary-500: #06B6D4;
+  --color-secondary-600: #0891B2;
 
   --color-accent-400: #67E8F9;
-  --color-accent-500: #22D3EE;
+  --color-accent-500: #00F0FF;
   --color-accent-600: #06B6D4;
 
   --radius: 0.5rem;
@@ -69,7 +69,7 @@
 
 @layer base {
   body {
-    background-color: #06040F;
+    background-color: #040714;
     color: #FFFFFF;
     font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
     min-height: 100vh;
@@ -82,8 +82,8 @@
 /* Subtle Geometric Background Grid */
 .bg-grid-pattern {
   background-image:
-    linear-gradient(rgba(139, 92, 246, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(139, 92, 246, 0.035) 1px, transparent 1px);
+    linear-gradient(rgba(14, 165, 233, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(14, 165, 233, 0.04) 1px, transparent 1px);
   background-size: 56px 56px;
 }
 
@@ -107,32 +107,32 @@
 
   .glass-card-hover:hover {
     transform: translateY(-6px);
-    border-color: rgba(139, 92, 246, 0.45);
-    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6), 0 0 25px rgba(124, 58, 237, 0.2);
+    border-color: rgba(56, 189, 248, 0.45);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6), 0 0 25px rgba(2, 132, 199, 0.25);
   }
 
   .text-glow {
-    text-shadow: 0 0 24px rgba(139, 92, 246, 0.5);
+    text-shadow: 0 0 24px rgba(56, 189, 248, 0.5);
   }
 
   .text-glow-cyan {
-    text-shadow: 0 0 20px rgba(34, 211, 238, 0.45);
+    text-shadow: 0 0 20px rgba(0, 240, 255, 0.5);
   }
 
-  /* Orexetv-style Pill Badge */
+  /* TereaTV-style Pill Badge */
   .badge-pill {
     display: inline-flex;
     align-items: center;
     gap: 8px;
     background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(56, 189, 248, 0.25);
     border-radius: 100px;
     padding: 6px 16px;
     font-size: 11px;
     font-weight: 800;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #C084FC;
+    color: #38BDF8;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
   }
@@ -142,8 +142,8 @@
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: #4CFF91;
-    box-shadow: 0 0 8px #4CFF91;
+    background: #00F0FF;
+    box-shadow: 0 0 8px #00F0FF;
     animation: dotPulse 1.5s ease-in-out infinite;
   }
 
@@ -153,19 +153,19 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    background: linear-gradient(135deg, #7C3AED 0%, #4F46E5 100%);
+    background: linear-gradient(135deg, #0284C7 0%, #06B6D4 100%);
     color: #FFFFFF;
     font-weight: 800;
     letter-spacing: 0.04em;
     border-radius: 9999px;
     padding: 14px 28px;
-    box-shadow: 0 8px 32px rgba(124, 58, 237, 0.4);
+    box-shadow: 0 8px 32px rgba(2, 132, 199, 0.4);
     transition: all 0.25s ease-in-out;
   }
 
   .btn-primary-voltra:hover {
-    background: linear-gradient(135deg, #8B5CF6 0%, #6366F1 100%);
-    box-shadow: 0 12px 40px rgba(124, 58, 237, 0.6);
+    background: linear-gradient(135deg, #0EA5E9 0%, #22D3EE 100%);
+    box-shadow: 0 12px 40px rgba(2, 132, 199, 0.6);
     transform: translateY(-2px) scale(1.01);
   }
 
@@ -190,9 +190,9 @@
   }
 
   .btn-secondary-voltra:hover {
-    border-color: rgba(192, 132, 252, 0.5);
-    background: rgba(139, 92, 246, 0.1);
-    color: #C084FC;
+    border-color: rgba(56, 189, 248, 0.5);
+    background: rgba(14, 165, 233, 0.1);
+    color: #38BDF8;
     transform: translateY(-2px);
   }
 
@@ -219,10 +219,10 @@
   }
   .text-format-marketing mark,
   .text-format-marketing .text-highlight {
-    @apply bg-transparent text-[#C084FC] font-extrabold;
+    @apply bg-transparent text-[#38BDF8] font-extrabold;
   }
   .text-format-marketing .badge-text {
-    @apply inline-flex items-center gap-1.5 rounded-full border border-purple-500/30 bg-purple-500/10 px-3.5 py-1 text-[11px] font-extrabold uppercase tracking-[0.18em] text-[#C084FC];
+    @apply inline-flex items-center gap-1.5 rounded-full border border-sky-500/30 bg-sky-500/10 px-3.5 py-1 text-[11px] font-extrabold uppercase tracking-[0.18em] text-[#38BDF8];
   }
 
   /* 2. BLOG & EDITORIAL PAGES */
@@ -247,7 +247,7 @@
     @apply italic text-slate-400;
   }
   .text-format-blog a {
-    @apply text-[#C084FC] font-medium underline underline-offset-4 decoration-purple-500/40 hover:text-white hover:decoration-purple-400 transition-colors;
+    @apply text-[#38BDF8] font-medium underline underline-offset-4 decoration-sky-500/40 hover:text-white hover:decoration-sky-400 transition-colors;
   }
 
   /* 3. TECHNICAL GUIDES & INSTALLATION PAGES */
@@ -265,11 +265,11 @@
   }
   .text-format-technical code,
   .text-format-technical pre {
-    @apply font-mono text-purple-300 bg-[#120B20] px-2.5 py-1 rounded-md border border-purple-500/20 text-xs sm:text-sm font-medium tracking-wide shadow-inner;
+    @apply font-mono text-cyan-300 bg-[#091124] px-2.5 py-1 rounded-md border border-cyan-500/20 text-xs sm:text-sm font-medium tracking-wide shadow-inner;
   }
   .text-format-technical strong,
   .text-format-technical b {
-    @apply font-bold text-white underline decoration-purple-400/50 decoration-2 underline-offset-2;
+    @apply font-bold text-white underline decoration-sky-400/50 decoration-2 underline-offset-2;
   }
 
   /* 4. LEGAL & POLICY DOCUMENTS */
@@ -277,7 +277,7 @@
     @apply font-black uppercase tracking-tight text-white text-3xl sm:text-4xl lg:text-5xl;
   }
   .text-format-legal h2 {
-    @apply font-bold text-white text-xl sm:text-2xl tracking-normal mt-8 mb-3 border-l-4 border-purple-500 pl-3;
+    @apply font-bold text-white text-xl sm:text-2xl tracking-normal mt-8 mb-3 border-l-4 border-sky-500 pl-3;
   }
   .text-format-legal p {
     @apply text-slate-300 leading-7 font-normal text-sm sm:text-base mb-4 tracking-normal;
@@ -287,7 +287,7 @@
     @apply font-semibold text-white;
   }
   .text-format-legal a {
-    @apply font-semibold text-[#C084FC] hover:text-white transition-colors underline underline-offset-2;
+    @apply font-semibold text-[#38BDF8] hover:text-white transition-colors underline underline-offset-2;
   }
 }
 
@@ -348,9 +348,9 @@
 }
 
 @keyframes buttonPulseScale {
-  0% { box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.6); }
-  70% { box-shadow: 0 0 0 12px rgba(124, 58, 237, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(124, 58, 237, 0); }
+  0% { box-shadow: 0 0 0 0 rgba(14, 165, 233, 0.6); }
+  70% { box-shadow: 0 0 0 12px rgba(14, 165, 233, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(14, 165, 233, 0); }
 }
 
 .animate-button-pulse {

@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Orexetv",
-  description: "Learn how Orexetv collects, uses, and protects personal information.",
+  title: "Privacy Policy | TereaTV",
+  description: "Learn how TereaTV collects, uses, and protects personal information.",
   alternates: {
     canonical: "/privacy-policy",
   },
@@ -13,7 +13,7 @@ const sections = [
   {
     title: "1. Data We Collect",
     content: [
-      <>We collect personal data that you voluntarily provide when you subscribe to our IPTV service, request information about our products or services, or <Link className="font-bold text-[#C084FC] hover:underline" href="/contact">contact us</Link>. The personal data we collect may include the following:</>,
+      <>We collect personal data that you voluntarily provide when you subscribe to our IPTV service, request information about our products or services, or <Link className="font-bold text-[#00F0FF] hover:underline" href="/contact">contact us</Link>. The personal data we collect may include the following:</>,
     ],
     items: [
       "Contact information: Your email address, which we use for account creation and communication.",
@@ -69,7 +69,7 @@ const sections = [
       "Request erasure of your personal information in certain circumstances.",
       "Opt out of marketing and promotional communications at any time.",
     ],
-    after: <>To exercise any of these rights, please <Link className="font-bold text-[#C084FC] hover:underline" href="/contact">contact our support team</Link>.</>,
+    after: <>To exercise any of these rights, please <Link className="font-bold text-[#00F0FF] hover:underline" href="/contact">contact our support team</Link>.</>,
   },
   {
     title: "9. Children's Privacy",
@@ -79,9 +79,9 @@ const sections = [
 
 export default function PrivacyPolicyPage() {
   return (
-    <main className="min-h-screen bg-[#06040F] text-white pt-28 pb-24 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto w-full relative z-10 bg-grid-pattern overflow-hidden">
+    <main className="min-h-screen bg-[#040714] text-white pt-28 pb-24 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto w-full relative z-10 bg-grid-pattern overflow-hidden">
       {/* Ambient Lighting Orbs */}
-      <div className="pointer-events-none absolute top-10 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-[radial-gradient(circle,rgba(124,58,237,0.15)_0%,transparent_70%)]" />
+      <div className="pointer-events-none absolute top-10 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-[radial-gradient(circle,rgba(2,132,199,0.15)_0%,transparent_70%)]" />
 
       <article className="relative z-10">
         <header className="mb-14 text-center mx-auto max-w-3xl">
@@ -89,24 +89,24 @@ export default function PrivacyPolicyPage() {
             <span className="dot-blink" /> Legal Information
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.08] tracking-tight uppercase">
-            <span className="block text-white">Orexetv IPTV Privacy &amp; Data</span>
-            <span className="mt-2 block bg-gradient-to-r from-[#C084FC] via-[#818CF8] to-[#22D3EE] bg-clip-text text-transparent">
+            <span className="block text-white">TereaTV IPTV Privacy &amp; Data</span>
+            <span className="mt-2 block bg-gradient-to-r from-[#00F0FF] via-[#0EA5E9] to-[#38BDF8] bg-clip-text text-transparent">
               Protection Policy
             </span>
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-xs sm:text-sm text-slate-400">Last updated: September 14, 2025</p>
+          <p className="mx-auto mt-4 max-w-2xl text-xs sm:text-sm text-slate-400">Last updated: 2026</p>
         </header>
 
-        <div className="rounded-3xl border border-white/10 bg-[#0B0714] p-8 sm:p-12 shadow-2xl backdrop-blur-xl space-y-10 text-slate-300 leading-relaxed text-sm sm:text-base">
+        <div className="rounded-3xl border border-cyan-500/20 bg-[#0A0F24]/80 p-8 sm:p-12 shadow-2xl backdrop-blur-xl space-y-10 text-slate-300 leading-relaxed text-sm sm:text-base">
           <p className="border-b border-white/10 pb-6 text-base text-slate-200 font-medium">
-            Welcome to Orexetv. We are committed to protecting your personal information and respecting your privacy. If you have questions or concerns about this policy or our data practices, please <Link className="font-bold text-[#C084FC] hover:underline" href="/contact">contact our support team</Link>.
+            Welcome to TereaTV. We are committed to protecting your personal information and respecting your privacy. If you have questions or concerns about this policy or our data practices, please <Link className="font-bold text-[#00F0FF] hover:underline" href="/contact">contact our support team</Link>.
           </p>
           {sections.map((section) => (
             <section key={section.title} className="space-y-4">
               <h2 className="text-xl sm:text-2xl font-black text-white uppercase tracking-tight">{section.title}</h2>
               {section.content.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
               {section.items && (
-                <ul className="list-disc space-y-2 pl-6 marker:text-[#C084FC]">
+                <ul className="list-disc space-y-2 pl-6 marker:text-[#00F0FF]">
                   {section.items.map((item, index) => <li key={index}>{item}</li>)}
                 </ul>
               )}

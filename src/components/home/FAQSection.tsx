@@ -15,20 +15,20 @@ const faqs: FAQ[] = [
   {
     id: 1,
     category: "General",
-    question: "What is Orexetv?",
+    question: "What is TereaTV?",
     answer: (
       <>
-        Orexetv is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
+        TereaTV is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
         <Link
           href="/channels"
-          className="text-[#C084FC] font-semibold hover:underline"
+          className="text-[#38BDF8] font-semibold hover:underline"
         >
           live TV channels
         </Link>{" "}
         and{" "}
         <a
           href="#pricing"
-          className="text-[#C084FC] font-semibold hover:underline"
+          className="text-[#38BDF8] font-semibold hover:underline"
         >
           IPTV subscription plans
         </a>
@@ -39,22 +39,22 @@ const faqs: FAQ[] = [
   {
     id: 2,
     category: "General",
-    question: "Do I need a subscription to use Orexetv?",
+    question: "Do I need a subscription to use TereaTV?",
     answer: (
       <>
         Yes, a subscription is required. However, we offer a{" "}
         <a
-          href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20orexetv%20IPTV."
+          href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20TereaTV%20IPTV."
           target="_blank"
           rel="noreferrer"
-          className="text-[#C084FC] font-semibold hover:underline"
+          className="text-[#38BDF8] font-semibold hover:underline"
         >
           free 24-hour trial
         </a>{" "}
         so you can test the service before committing to our{" "}
         <a
           href="#pricing"
-          className="text-[#C084FC] font-semibold hover:underline"
+          className="text-[#38BDF8] font-semibold hover:underline"
         >
           subscription plans
         </a>
@@ -65,13 +65,13 @@ const faqs: FAQ[] = [
   {
     id: 3,
     category: "Technical",
-    question: "What devices are compatible with Orexetv?",
+    question: "What devices are compatible with TereaTV?",
     answer: (
       <>
-        Orexetv works on Android TV, Firestick, Smart TVs (Samsung, LG), Android phones, tablets, Apple TV, and apps like Tivimate. Follow our step-by-step{" "}
+        TereaTV works on Android TV, Firestick, Smart TVs (Samsung, LG), Android phones, tablets, Apple TV, and apps like Tivimate. Follow our step-by-step{" "}
         <Link
           href="/installation"
-          className="text-[#C084FC] font-semibold hover:underline"
+          className="text-[#38BDF8] font-semibold hover:underline"
         >
           installation guides
         </Link>{" "}
@@ -88,7 +88,7 @@ const faqs: FAQ[] = [
         Yes, we offer multi-device support. You can choose an{" "}
         <a
           href="#pricing"
-          className="text-[#C084FC] font-semibold hover:underline"
+          className="text-[#38BDF8] font-semibold hover:underline"
         >
           IPTV subscription plan
         </a>{" "}
@@ -99,13 +99,13 @@ const faqs: FAQ[] = [
   {
     id: 5,
     category: "General",
-    question: "Can I watch sports on Orexetv?",
+    question: "Can I watch sports on TereaTV?",
     answer: (
       <>
         Absolutely. We offer a wide selection of live sports channels, including Premier League, Champions League, UFC, F1, NBA, and PPV broadcasts in 4K 60FPS. Explore our full{" "}
         <Link
           href="/channels"
-          className="text-[#C084FC] font-semibold hover:underline"
+          className="text-[#38BDF8] font-semibold hover:underline"
         >
           channels catalog
         </Link>
@@ -122,7 +122,7 @@ const faqs: FAQ[] = [
         We accept PayPal, cryptocurrency (such as Bitcoin, USDT), credit cards, and instant transfers for quick and secure payments. Contact our{" "}
         <Link
           href="/contact"
-          className="text-[#C084FC] font-semibold hover:underline"
+          className="text-[#38BDF8] font-semibold hover:underline"
         >
           support team
         </Link>{" "}
@@ -139,7 +139,7 @@ const faqs: FAQ[] = [
         The service includes 50,000+ live TV channels, sports, 120,000+ movies, TV series, kids&apos; content, international channels, and more – all in HD or 4K quality. Learn more in our{" "}
         <Link
           href="/blog"
-          className="text-[#C084FC] font-semibold hover:underline"
+          className="text-[#38BDF8] font-semibold hover:underline"
         >
           IPTV articles &amp; guides
         </Link>
@@ -153,10 +153,10 @@ const faqs: FAQ[] = [
     question: "Do I need a VPN?",
     answer: (
       <>
-        A VPN is not required because Orexetv includes built-in anti-freeze server protection. However, if your ISP limits streaming speeds, a VPN can be used without restrictions. Read our{" "}
+        A VPN is not required because TereaTV includes built-in anti-freeze server protection. However, if your ISP limits streaming speeds, a VPN can be used without restrictions. Read our{" "}
         <Link
           href="/faq"
-          className="text-[#C084FC] font-semibold hover:underline"
+          className="text-[#38BDF8] font-semibold hover:underline"
         >
           FAQ knowledge base
         </Link>{" "}
@@ -179,9 +179,9 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="py-24 bg-[#080511] text-white relative z-10 border-t border-white/5 overflow-hidden bg-grid-pattern">
+    <section className="py-24 bg-[#060A1A] text-white relative z-10 border-t border-white/5 overflow-hidden bg-grid-pattern">
       {/* Background glow */}
-      <div className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[350px] bg-purple-900/10 blur-[130px] rounded-full" />
+      <div className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[350px] bg-sky-900/10 blur-[130px] rounded-full" />
 
       <div className="relative z-10 max-w-[1050px] mx-auto px-4 sm:px-6">
         {/* Header */}
@@ -191,13 +191,13 @@ export default function FAQSection() {
           </div>
           <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight leading-[1.1] uppercase">
             Frequently Asked <br />
-            <span className="bg-gradient-to-r from-[#C084FC] via-[#818CF8] to-[#22D3EE] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#38BDF8] via-[#0EA5E9] to-[#00F0FF] bg-clip-text text-transparent">
               Questions &amp; Answers
             </span>
           </h2>
           <p className="text-slate-300 text-sm sm:text-base mt-4 leading-relaxed max-w-2xl mx-auto">
             Find answers to common questions about our IPTV service. If you need immediate help, our{" "}
-            <Link href="/contact" className="text-[#C084FC] font-semibold hover:underline">
+            <Link href="/contact" className="text-[#38BDF8] font-semibold hover:underline">
               support team
             </Link>{" "}
             is available 24/7 on WhatsApp.
@@ -208,7 +208,7 @@ export default function FAQSection() {
         <div className="flex flex-col md:flex-row gap-8">
           
           {/* Left Column: Categories */}
-          <div className="w-full md:w-64 shrink-0 bg-[#0B0714] rounded-2xl p-5 h-fit border border-white/10 shadow-lg">
+          <div className="w-full md:w-64 shrink-0 bg-[#0A0F24] rounded-2xl p-5 h-fit border border-white/10 shadow-lg">
             <p className="text-xs font-black uppercase tracking-widest text-slate-400 mb-4 px-2">
               Browse Categories
             </p>
@@ -224,12 +224,12 @@ export default function FAQSection() {
                     }}
                     className={`text-left px-4 py-3 rounded-xl text-xs sm:text-sm font-extrabold transition-all duration-200 flex items-center justify-between ${
                       isActive 
-                        ? "bg-gradient-to-r from-[#7C3AED]/20 to-[#4F46E5]/20 border border-purple-500/40 text-[#C084FC] shadow-sm" 
+                        ? "bg-gradient-to-r from-[#0284C7]/20 to-[#06B6D4]/20 border border-sky-500/40 text-[#38BDF8] shadow-sm" 
                         : "text-slate-400 hover:bg-white/5 hover:text-white"
                     }`}
                   >
                     <span>{cat}</span>
-                    {isActive && <span className="w-1.5 h-1.5 rounded-full bg-[#C084FC] shadow-[0_0_6px_#C084FC]" />}
+                    {isActive && <span className="w-1.5 h-1.5 rounded-full bg-[#00F0FF] shadow-[0_0_6px_#00F0FF]" />}
                   </button>
                 );
               })}
@@ -251,8 +251,8 @@ export default function FAQSection() {
                     key={faq.id} 
                     className={`rounded-2xl border transition-all duration-300 overflow-hidden ${
                       isExpanded
-                        ? "bg-[#0B0714] border-purple-500/50 shadow-[0_4px_25px_rgba(124,58,237,0.15)]"
-                        : "bg-[#0B0714]/70 border-white/10 hover:border-white/20"
+                        ? "bg-[#0A0F24] border-sky-500/50 shadow-[0_4px_25px_rgba(2,132,199,0.15)]"
+                        : "bg-[#0A0F24]/70 border-white/10 hover:border-white/20"
                     }`}
                   >
                     <button
@@ -262,7 +262,7 @@ export default function FAQSection() {
                       <h3 className="text-sm sm:text-base leading-snug font-bold">{faq.question}</h3>
                       <span className={`shrink-0 p-1 rounded-full border transition-all ${
                         isExpanded 
-                          ? "bg-purple-500/20 border-purple-500/40 text-[#C084FC]" 
+                          ? "bg-sky-500/20 border-sky-500/40 text-[#38BDF8]" 
                           : "bg-white/5 border-white/10 text-slate-400"
                       }`}>
                         {isExpanded ? <Minus className="w-4 h-4" /> : <Plus className="w-4 h-4" />}

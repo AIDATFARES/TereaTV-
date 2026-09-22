@@ -18,7 +18,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="flex-col flex min-h-screen bg-[#06040F] text-white">
+    <main className="flex-col flex min-h-screen bg-[#040714] text-white">
       {/* Hero Section */}
       <HeroSection />
 
@@ -32,9 +32,9 @@ export default function Home() {
       <MovieStrips />
 
       {/* Channel & Installation Quick Links */}
-      <div className="w-full bg-[#06040F] py-6 px-4 text-center border-y border-white/5 relative z-20">
+      <div className="w-full bg-[#040714] py-6 px-4 text-center border-y border-white/5 relative z-20">
         <p className="text-center text-xs sm:text-sm text-slate-400 max-w-3xl mx-auto">
-          Explore the complete <Link prefetch={false} className="font-bold text-[#C084FC] hover:underline" href="/channels">Orexetv Channel Lineup</Link> or view our <Link prefetch={false} className="font-bold text-[#C084FC] hover:underline" href="/installation">Installation Guide</Link> for simple step-by-step setup.
+          Explore the complete <Link prefetch={false} className="font-bold text-[#38BDF8] hover:underline" href="/channels">TereaTV Channel Lineup</Link> or view our <Link prefetch={false} className="font-bold text-[#38BDF8] hover:underline" href="/installation">Installation Guide</Link> for simple step-by-step setup.
         </p>
       </div>
 
@@ -45,7 +45,7 @@ export default function Home() {
       <DeviceSupport />
 
       {/* Device Logos Marquee */}
-      <div className="w-full bg-[#080511] border-b border-white/5 pt-14 pb-8 relative z-10 bg-grid-pattern">
+      <div className="w-full bg-[#060A1A] border-b border-white/5 pt-14 pb-8 relative z-10 bg-grid-pattern">
         <p className="text-center text-xs font-extrabold tracking-widest text-slate-400 uppercase mb-8">
           Supported on All Leading Devices &amp; IPTV Players
         </p>
@@ -64,7 +64,7 @@ export default function Home() {
             "windows-pc.webp",
             "xbox-console.webp"
           ]}
-          cardClassName="flex-shrink-0 w-[160px] h-[80px] md:w-[210px] md:h-[95px] relative bg-white border border-white/10 rounded-2xl p-4 md:p-5 hover:border-purple-400/60 transition-all duration-300 shadow-[0_4px_20px_rgba(0,0,0,0.4)] flex items-center justify-center cursor-pointer"
+          cardClassName="flex-shrink-0 w-[160px] h-[80px] md:w-[210px] md:h-[95px] relative bg-white border border-white/10 rounded-2xl p-4 md:p-5 hover:border-sky-400/60 transition-all duration-300 shadow-[0_4px_20px_rgba(0,0,0,0.4)] flex items-center justify-center cursor-pointer"
           imageClassName="object-contain drop-shadow-sm"
         />
       </div>

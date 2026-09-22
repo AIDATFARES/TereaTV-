@@ -25,10 +25,10 @@ export default function MovieStrips() {
   ] as const;
 
   return (
-    <section className="w-full overflow-hidden bg-[#06040F] py-20 lg:py-28 relative flex flex-col border-y border-white/5 bg-grid-pattern text-white">
+    <section className="w-full overflow-hidden bg-[#040714] py-20 lg:py-28 relative flex flex-col border-y border-white/5 bg-grid-pattern text-white">
       {/* Ambient Radial Lights */}
-      <div className="pointer-events-none absolute top-10 left-1/2 -translate-x-1/2 w-[900px] h-[450px] bg-[radial-gradient(circle,rgba(124,58,237,0.16)_0%,transparent_70%)]" />
-      <div className="pointer-events-none absolute bottom-10 right-10 w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(34,211,238,0.08)_0%,transparent_70%)]" />
+      <div className="pointer-events-none absolute top-10 left-1/2 -translate-x-1/2 w-[900px] h-[450px] bg-[radial-gradient(circle,rgba(2,132,199,0.18)_0%,transparent_70%)]" />
+      <div className="pointer-events-none absolute bottom-10 right-10 w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(6,182,212,0.12)_0%,transparent_70%)]" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         
@@ -39,12 +39,12 @@ export default function MovieStrips() {
           </div>
           <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight uppercase leading-[1.08]">
             The Ultimate <br />
-            <span className="bg-gradient-to-r from-[#C084FC] via-[#818CF8] to-[#22D3EE] bg-clip-text text-transparent">
-              Orexetv Sports &amp; Entertainment Hub
+            <span className="bg-gradient-to-r from-[#38BDF8] via-[#0EA5E9] to-[#00F0FF] bg-clip-text text-transparent">
+              TereaTV Sports &amp; Entertainment Hub
             </span>
           </h2>
           <p className="text-slate-300 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed mt-4">
-            Stream over 200,000+ Movies &amp; Series and +50,000 live broadcast channels in native 4K 60FPS on Orexetv IPTV. Powered by high-capacity anti-freeze servers with zero buffering.
+            Stream over 200,000+ Movies &amp; Series and +50,000 live broadcast channels in native 4K 60FPS on TereaTV IPTV. Powered by high-capacity anti-freeze servers with zero buffering.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <Link 
@@ -73,14 +73,14 @@ export default function MovieStrips() {
                 onClick={() => setActiveTab(tab.id)}
                 className={`flex items-center gap-2.5 px-5 py-3 rounded-full text-xs sm:text-sm font-extrabold uppercase tracking-wider transition-all duration-300 ${
                   isActive
-                    ? "bg-gradient-to-r from-[#7C3AED] to-[#4F46E5] text-white shadow-[0_4px_20px_rgba(124,58,237,0.45)] border border-purple-400/40"
-                    : "border border-white/10 bg-[#0B0714] text-slate-400 hover:text-white hover:border-purple-500/30"
+                    ? "bg-gradient-to-r from-[#0284C7] to-[#06B6D4] text-white shadow-[0_4px_20px_rgba(2,132,199,0.45)] border border-sky-400/40"
+                    : "border border-white/10 bg-[#0A0F24] text-slate-400 hover:text-white hover:border-sky-500/30"
                 }`}
               >
                 <Icon className="w-4 h-4" />
                 <span>{tab.label}</span>
                 <span className={`text-[9px] font-black px-2 py-0.5 rounded-full ${
-                  isActive ? "bg-white/20 text-white" : "bg-white/5 text-purple-300"
+                  isActive ? "bg-white/20 text-white" : "bg-white/5 text-sky-300"
                 }`}>
                   {tab.badge}
                 </span>
@@ -90,7 +90,7 @@ export default function MovieStrips() {
         </div>
 
         {/* Tab Content Display */}
-        <div className="rounded-3xl border border-white/10 bg-[#0B0714] p-6 sm:p-10 shadow-2xl backdrop-blur-xl transition-all duration-300">
+        <div className="rounded-3xl border border-white/10 bg-[#0A0F24] p-6 sm:p-10 shadow-2xl backdrop-blur-xl transition-all duration-300">
           
           {/* TAB 1: LIVE SPORTS & PPV */}
           {activeTab === "sports" && (
@@ -103,14 +103,14 @@ export default function MovieStrips() {
                   Every Major League, Cup &amp; Live PPV Event
                 </h3>
                 <p className="text-slate-300 text-xs sm:text-sm leading-relaxed">
-                  Never miss championship football, title fights, or motorsports. Orexetv IPTV delivers low-latency 60FPS sports feeds with dual commentary audio and zero stutter.
+                  Never miss championship football, title fights, or motorsports. TereaTV IPTV delivers low-latency 60FPS sports feeds with dual commentary audio and zero stutter.
                 </p>
                 <div className="grid grid-cols-2 gap-3 pt-2">
-                  <div className="p-3.5 rounded-2xl bg-[#06040F] border border-white/10">
+                  <div className="p-3.5 rounded-2xl bg-[#040714] border border-white/10">
                     <span className="text-[10px] font-extrabold uppercase text-slate-400 block">Stream Quality</span>
                     <span className="text-sm font-black text-white">📺 4K UHD @ 60FPS</span>
                   </div>
-                  <div className="p-3.5 rounded-2xl bg-[#06040F] border border-white/10">
+                  <div className="p-3.5 rounded-2xl bg-[#040714] border border-white/10">
                     <span className="text-[10px] font-extrabold uppercase text-slate-400 block">Server Stability</span>
                     <span className="text-sm font-black text-emerald-400">🛡️ 99.9% Anti-Freeze</span>
                   </div>
@@ -121,8 +121,8 @@ export default function MovieStrips() {
                 {/* Sports Category Card 1 */}
                 <div className="glass-card-hover rounded-2xl p-5 space-y-3">
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-black text-[#C084FC] uppercase tracking-wider">⚽ Football Leagues</span>
-                    <Flame className="w-4 h-4 text-purple-400" />
+                    <span className="text-xs font-black text-[#38BDF8] uppercase tracking-wider">⚽ Football Leagues</span>
+                    <Flame className="w-4 h-4 text-sky-400" />
                   </div>
                   <div className="flex flex-wrap gap-2">
                     {[
@@ -135,7 +135,7 @@ export default function MovieStrips() {
                       "⭐ Europa League",
                       "🌍 CAF Champions"
                     ].map((item) => (
-                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#06040F] border border-white/10 text-slate-200">
+                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#040714] border border-white/10 text-slate-200">
                         {item}
                       </span>
                     ))}
@@ -158,7 +158,7 @@ export default function MovieStrips() {
                       "👊 BKFC Bare Knuckle",
                       "🎟️ All PPV Passes"
                     ].map((item) => (
-                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#06040F] border border-white/10 text-slate-200">
+                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#040714] border border-white/10 text-slate-200">
                         {item}
                       </span>
                     ))}
@@ -180,7 +180,7 @@ export default function MovieStrips() {
                       "🚗 WRC Rally",
                       "⏱️ 24H Le Mans"
                     ].map((item) => (
-                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#06040F] border border-white/10 text-slate-200">
+                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#040714] border border-white/10 text-slate-200">
                         {item}
                       </span>
                     ))}
@@ -202,7 +202,7 @@ export default function MovieStrips() {
                       "🎾 ATP Tennis Tour",
                       "⛳ PGA Golf Tour"
                     ].map((item) => (
-                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#06040F] border border-white/10 text-slate-200">
+                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#040714] border border-white/10 text-slate-200">
                         {item}
                       </span>
                     ))}
@@ -216,30 +216,30 @@ export default function MovieStrips() {
           {activeTab === "vod" && (
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
               <div className="lg:col-span-5 space-y-5">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/25 text-[#C084FC] text-xs font-bold uppercase tracking-wider">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/25 text-[#38BDF8] text-xs font-bold uppercase tracking-wider">
                   <Film className="w-3.5 h-3.5" /> 🎬 200,000+ Cinema Titles
                 </div>
                 <h3 className="text-2xl sm:text-4xl font-black text-white uppercase tracking-tight leading-tight">
                   200,000+ 4K Movies &amp; Series On Demand
                 </h3>
                 <p className="text-slate-300 text-xs sm:text-sm leading-relaxed">
-                  Enjoy non-stop on-demand cinema with Orexetv VOD. Stream recent theatrical blockbusters, award-winning series, and complete TV boxsets with multi-language subtitles and 5.1 surround sound.
+                  Enjoy non-stop on-demand cinema with TereaTV VOD. Stream recent theatrical blockbusters, award-winning series, and complete TV boxsets with multi-language subtitles and 5.1 surround sound.
                 </p>
                 <div className="grid grid-cols-2 gap-3 pt-2">
-                  <div className="p-3.5 rounded-2xl bg-[#06040F] border border-white/10">
+                  <div className="p-3.5 rounded-2xl bg-[#040714] border border-white/10">
                     <span className="text-[10px] font-extrabold uppercase text-slate-400 block">Audio &amp; Video</span>
                     <span className="text-sm font-black text-white">🎧 4K HDR · Dolby 5.1</span>
                   </div>
-                  <div className="p-3.5 rounded-2xl bg-[#06040F] border border-white/10">
+                  <div className="p-3.5 rounded-2xl bg-[#040714] border border-white/10">
                     <span className="text-[10px] font-extrabold uppercase text-slate-400 block">Catalog Growth</span>
-                    <span className="text-sm font-black text-[#C084FC]">🔄 Daily New Releases</span>
+                    <span className="text-sm font-black text-[#38BDF8]">🔄 Daily New Releases</span>
                   </div>
                 </div>
               </div>
 
               <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="glass-card-hover rounded-2xl p-5 space-y-3">
-                  <h4 className="text-xs font-black text-[#C084FC] uppercase tracking-wider">🍿 Streaming Platforms Hub</h4>
+                  <h4 className="text-xs font-black text-[#38BDF8] uppercase tracking-wider">🍿 Streaming Platforms Hub</h4>
                   <p className="text-[11px] text-slate-400">All top streaming service exclusives aggregated in one portal:</p>
                   <div className="flex flex-wrap gap-2">
                     {[
@@ -251,7 +251,7 @@ export default function MovieStrips() {
                       "🏔️ Paramount+",
                       "🦚 Peacock Originals"
                     ].map((item) => (
-                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#06040F] border border-white/10 text-slate-200">
+                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#040714] border border-white/10 text-slate-200">
                         {item}
                       </span>
                     ))}
@@ -271,7 +271,7 @@ export default function MovieStrips() {
                       "🌿 Documentaries",
                       "⛩️ Anime & Animation"
                     ].map((item) => (
-                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#06040F] border border-white/10 text-slate-200">
+                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#040714] border border-white/10 text-slate-200">
                         {item}
                       </span>
                     ))}
@@ -284,10 +284,10 @@ export default function MovieStrips() {
                     <span className="text-[10px] font-extrabold text-slate-400 uppercase">Built-in Player Support</span>
                   </div>
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center pt-1">
-                    <div className="p-2.5 rounded-xl bg-[#06040F] border border-white/10 text-xs font-bold text-slate-200">💎 4K &amp; FHD Quality</div>
-                    <div className="p-2.5 rounded-xl bg-[#06040F] border border-white/10 text-xs font-bold text-slate-200">💬 Multi-Subtitles</div>
-                    <div className="p-2.5 rounded-xl bg-[#06040F] border border-white/10 text-xs font-bold text-slate-200">⏯️ Resume Playback</div>
-                    <div className="p-2.5 rounded-xl bg-[#06040F] border border-white/10 text-xs font-bold text-slate-200">⚡ Instant Buffering</div>
+                    <div className="p-2.5 rounded-xl bg-[#040714] border border-white/10 text-xs font-bold text-slate-200">💎 4K &amp; FHD Quality</div>
+                    <div className="p-2.5 rounded-xl bg-[#040714] border border-white/10 text-xs font-bold text-slate-200">💬 Multi-Subtitles</div>
+                    <div className="p-2.5 rounded-xl bg-[#040714] border border-white/10 text-xs font-bold text-slate-200">⏯️ Resume Playback</div>
+                    <div className="p-2.5 rounded-xl bg-[#040714] border border-white/10 text-xs font-bold text-slate-200">⚡ Instant Buffering</div>
                   </div>
                 </div>
               </div>
@@ -305,14 +305,14 @@ export default function MovieStrips() {
                   +50,000 Live International TV Channels
                 </h3>
                 <p className="text-slate-300 text-xs sm:text-sm leading-relaxed">
-                  Stream high-definition global television with Orexetv IPTV. Enjoy +50,000 live broadcast channels across 150+ countries with full interactive EPG TV guides and catch-up capability.
+                  Stream high-definition global television with TereaTV IPTV. Enjoy +50,000 live broadcast channels across 150+ countries with full interactive EPG TV guides and catch-up capability.
                 </p>
                 <div className="grid grid-cols-2 gap-3 pt-2">
-                  <div className="p-3.5 rounded-2xl bg-[#06040F] border border-white/10">
+                  <div className="p-3.5 rounded-2xl bg-[#040714] border border-white/10">
                     <span className="text-[10px] font-extrabold uppercase text-slate-400 block">Coverage</span>
                     <span className="text-sm font-black text-white">🌐 150+ Regions</span>
                   </div>
-                  <div className="p-3.5 rounded-2xl bg-[#06040F] border border-white/10">
+                  <div className="p-3.5 rounded-2xl bg-[#040714] border border-white/10">
                     <span className="text-[10px] font-extrabold uppercase text-slate-400 block">TV Guide</span>
                     <span className="text-sm font-black text-cyan-400">📅 Electronic EPG</span>
                   </div>
@@ -321,7 +321,7 @@ export default function MovieStrips() {
 
               <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="glass-card-hover rounded-2xl p-5 space-y-3">
-                  <span className="text-xs font-black text-[#C084FC] uppercase tracking-wider block">🗽 North America &amp; UK</span>
+                  <span className="text-xs font-black text-[#38BDF8] uppercase tracking-wider block">🗽 North America &amp; UK</span>
                   <div className="flex flex-wrap gap-2">
                     {[
                       "🇺🇸 USA Premium Cable",
@@ -330,7 +330,7 @@ export default function MovieStrips() {
                       "🇦🇺 Australia & NZ",
                       "📡 Local News Networks"
                     ].map((item) => (
-                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#06040F] border border-white/10 text-slate-200">
+                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#040714] border border-white/10 text-slate-200">
                         {item}
                       </span>
                     ))}
@@ -349,7 +349,7 @@ export default function MovieStrips() {
                       "🇳🇱 Netherlands",
                       "🇸🇪 Scandinavia & Nordic"
                     ].map((item) => (
-                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#06040F] border border-white/10 text-slate-200">
+                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#040714] border border-white/10 text-slate-200">
                         {item}
                       </span>
                     ))}
@@ -366,7 +366,7 @@ export default function MovieStrips() {
                       "📺 Arab National TV",
                       "🦁 Africa SuperSport"
                     ].map((item) => (
-                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#06040F] border border-white/10 text-slate-200">
+                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#040714] border border-white/10 text-slate-200">
                         {item}
                       </span>
                     ))}
@@ -383,7 +383,7 @@ export default function MovieStrips() {
                       "🇮🇳 India & Hindi",
                       "🇵🇰 Pakistan & Asia"
                     ].map((item) => (
-                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#06040F] border border-white/10 text-slate-200">
+                      <span key={item} className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-[#040714] border border-white/10 text-slate-200">
                         {item}
                       </span>
                     ))}
@@ -397,21 +397,21 @@ export default function MovieStrips() {
           {activeTab === "tech" && (
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
               <div className="lg:col-span-5 space-y-5">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/25 text-[#C084FC] text-xs font-bold uppercase tracking-wider">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/25 text-[#38BDF8] text-xs font-bold uppercase tracking-wider">
                   <Zap className="w-3.5 h-3.5" /> ⚡ High-Speed Architecture
                 </div>
                 <h3 className="text-2xl sm:text-4xl font-black text-white uppercase tracking-tight leading-tight">
                   Next-Gen Anti-Freeze 9.3 Technology
                 </h3>
                 <p className="text-slate-300 text-xs sm:text-sm leading-relaxed">
-                  Orexetv IPTV proprietary Anti-Freeze 9.3 and cloud load-balancing servers eliminate buffering loops and lag during high-demand live sports like El Clásico, the Super Bowl, and Champions League finals.
+                  TereaTV IPTV proprietary Anti-Freeze 9.3 and cloud load-balancing servers eliminate buffering loops and lag during high-demand live sports like El Clásico, the Super Bowl, and Champions League finals.
                 </p>
                 <div className="grid grid-cols-2 gap-3 pt-2">
-                  <div className="p-3.5 rounded-2xl bg-[#06040F] border border-white/10">
+                  <div className="p-3.5 rounded-2xl bg-[#040714] border border-white/10">
                     <span className="text-[10px] font-extrabold uppercase text-slate-400 block">Zapping Speed</span>
                     <span className="text-sm font-black text-white">⏱️ &lt; 0.5 Seconds</span>
                   </div>
-                  <div className="p-3.5 rounded-2xl bg-[#06040F] border border-white/10">
+                  <div className="p-3.5 rounded-2xl bg-[#040714] border border-white/10">
                     <span className="text-[10px] font-extrabold uppercase text-slate-400 block">Uplink Capacity</span>
                     <span className="text-sm font-black text-emerald-400">🚀 10Gbps Multi-CDN</span>
                   </div>
@@ -420,7 +420,7 @@ export default function MovieStrips() {
 
               <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="glass-card-hover rounded-2xl p-5 space-y-2">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-purple-500/10 border border-purple-500/20 text-[#C084FC] mb-2">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-sky-500/10 border border-sky-500/20 text-[#38BDF8] mb-2">
                     <Zap className="w-5 h-5" />
                   </div>
                   <h4 className="text-sm font-black text-white uppercase">⚡ Anti-Freeze 9.3</h4>
@@ -471,7 +471,7 @@ export default function MovieStrips() {
             <span className="text-[11px] font-extrabold uppercase tracking-wider text-slate-400 mt-1 block">Live TV Channels</span>
           </div>
           <div className="glass-card rounded-2xl p-5 text-center">
-            <span className="text-2xl sm:text-3xl font-black text-[#C084FC] tracking-tight block">🎬 +200,000</span>
+            <span className="text-2xl sm:text-3xl font-black text-[#38BDF8] tracking-tight block">🎬 +200,000</span>
             <span className="text-[11px] font-extrabold uppercase tracking-wider text-slate-400 mt-1 block">Movies &amp; Series</span>
           </div>
           <div className="glass-card rounded-2xl p-5 text-center">
