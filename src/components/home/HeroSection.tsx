@@ -36,7 +36,7 @@ export default function HeroSection() {
         </div>
 
         {/* Headline */}
-        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[80px] font-black tracking-tight leading-[1.05] uppercase text-white drop-shadow-2xl max-w-5xl">
+        <h1 className="text-3xl sm:text-6xl md:text-7xl lg:text-[80px] font-black tracking-tight leading-[1.05] uppercase text-white drop-shadow-2xl max-w-5xl break-words">
           <span className="text-white">TereaTV IPTV</span>{" "}
           <span className="bg-gradient-to-r from-[#38BDF8] via-[#0EA5E9] to-[#00F0FF] bg-clip-text text-transparent">
             Premium 4K Streaming

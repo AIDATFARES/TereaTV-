@@ -18,7 +18,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="flex-col flex min-h-screen bg-[#040714] text-white">
+    <main className="flex-col flex min-h-screen bg-[#040714] text-white w-full max-w-full overflow-x-hidden">
       {/* Hero Section */}
       <HeroSection />
 
@@ -45,7 +45,7 @@ export default function Home() {
       <DeviceSupport />
 
       {/* Device Logos Marquee */}
-      <div className="w-full bg-[#060A1A] border-b border-white/5 pt-14 pb-8 relative z-10 bg-grid-pattern">
+      <div className="w-full bg-[#060A1A] border-b border-white/5 pt-14 pb-8 relative z-10 bg-grid-pattern overflow-hidden">
         <p className="text-center text-xs font-extrabold tracking-widest text-slate-400 uppercase mb-8">
           Supported on All Leading Devices &amp; IPTV Players
         </p>

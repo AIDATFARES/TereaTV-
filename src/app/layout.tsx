@@ -1,8 +1,14 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Geist } from "next/font/google";
 import Link from "next/link";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
 import "./globals.css";
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+};
 
 import Navbar from "@/components/layout/Navbar";
 import BrandLogo from "@/components/ui/BrandLogo";
@@ -97,18 +103,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`dark ${inter.variable} ${geist.variable}`}>
+    <html lang="en" className={`dark ${inter.variable} ${geist.variable} overflow-x-hidden`}>
       <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
       </head>
-      <body className="bg-[#040714] text-slate-100 min-h-screen flex flex-col antialiased selection:bg-[#0284C7] selection:text-white bg-grid-pattern">
+      <body className="bg-[#040714] text-slate-100 min-h-screen flex flex-col antialiased selection:bg-[#0284C7] selection:text-white bg-grid-pattern overflow-x-hidden w-full max-w-full">
         {/* Navbar Component */}
         <Navbar />
 
-        <div className="flex-grow pt-[102px] sm:pt-[118px] flex flex-col">{children}</div>
+        <div className="flex-grow pt-[102px] sm:pt-[118px] flex flex-col w-full max-w-full overflow-x-hidden">{children}</div>
 
         {/* Footer */}
         <footer className="w-full mt-auto border-t border-white/10 bg-[#040714] relative overflow-hidden">

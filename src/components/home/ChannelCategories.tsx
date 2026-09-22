@@ -117,7 +117,7 @@ export default function ChannelCategories() {
   ];
 
   return (
-    <section className="relative z-10 bg-[#060A1A] py-20 sm:py-28 border-b border-white/5 bg-grid-pattern">
+    <section className="relative z-10 bg-[#060A1A] py-20 sm:py-28 border-b border-white/5 bg-grid-pattern overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         
         {/* Heading */}
@@ -125,7 +125,7 @@ export default function ChannelCategories() {
           <div className="badge-pill mb-4">
             <span className="dot-blink" /> Premium IPTV Features
           </div>
-          <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight leading-[1.1] uppercase">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl font-black text-white tracking-tight leading-[1.1] uppercase break-words">
             Everything You Need for the <br className="hidden md:block" />
             <span className="bg-gradient-to-r from-[#38BDF8] via-[#0EA5E9] to-[#00F0FF] bg-clip-text text-transparent">
               Ultimate TereaTV Experience

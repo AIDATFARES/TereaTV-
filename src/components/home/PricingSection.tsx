@@ -89,7 +89,7 @@ export default function PricingSection() {
   }
 
   return (
-    <section id="pricing" className="py-24 bg-[#040714] text-white relative z-10 border-b border-white/5 bg-grid-pattern">
+    <section id="pricing" className="py-24 bg-[#040714] text-white relative z-10 border-b border-white/5 bg-grid-pattern overflow-hidden">
       {/* Background Radial Glow */}
       <div className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[500px] bg-sky-900/10 rounded-full blur-[140px]" />
 
