@@ -70,15 +70,27 @@ export default function HeroSection() {
             href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20TereaTV%20IPTV."
             target="_blank"
             rel="noreferrer"
-            className="btn-primary-voltra px-8 py-4 text-sm sm:text-base font-extrabold uppercase tracking-wider"
+            className="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden rounded-full bg-gradient-to-r from-[#0284C7] via-[#0EA5E9] to-[#00F0FF] px-8 py-4 text-sm sm:text-base font-extrabold uppercase tracking-wider text-white transition-all duration-300 hover:scale-[1.03] active:scale-[0.98] animate-glow-pulse"
           >
-            GET 12 MONTHS — 2 MONTHS FREE <span className="ml-1">➔</span>
+            {/* Shimmer Light Ray Sweep */}
+            <span
+              className="pointer-events-none absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/35 to-transparent animate-shimmer-sweep"
+              aria-hidden="true"
+            />
+            <span className="relative z-10 flex items-center gap-2">
+              <span>GET 12 MONTHS — 2 MONTHS FREE</span>
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1.5 animate-arrow-nudge">
+                ➔
+              </span>
+            </span>
           </a>
+
           <a
             href="#pricing"
-            className="btn-secondary-voltra px-8 py-4 text-sm sm:text-base font-bold"
+            className="group relative inline-flex items-center justify-center gap-2.5 rounded-full bg-white/[0.04] backdrop-blur-xl border border-white/15 px-8 py-4 text-sm sm:text-base font-bold text-white transition-all duration-300 hover:scale-[1.03] hover:border-sky-400/50 hover:bg-sky-500/10 hover:text-sky-300 active:scale-[0.98] animate-secondary-glow"
           >
-            <Play className="w-4 h-4 fill-current" /> View Pricing Plans
+            <Play className="w-4 h-4 fill-current transition-transform duration-300 group-hover:scale-110 text-sky-400 group-hover:text-cyan-300" />
+            <span>View Pricing Plans</span>
           </a>
         </div>
 

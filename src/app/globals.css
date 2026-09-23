@@ -380,3 +380,57 @@
 .animate-button-pulse:hover, .animate-button-pulse-white:hover {
   animation-play-state: paused;
 }
+
+/* Premium Button Shimmer Sweep Effect */
+@keyframes shimmerSweep {
+  0% {
+    transform: translateX(-150%) skewX(-20deg);
+  }
+  35%, 100% {
+    transform: translateX(250%) skewX(-20deg);
+  }
+}
+
+.animate-shimmer-sweep {
+  animation: shimmerSweep 3.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+/* High-Converting Radiant Glow Pulse */
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 16px rgba(2, 132, 199, 0.45), 0 0 32px rgba(0, 240, 255, 0.25), 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 28px rgba(2, 132, 199, 0.75), 0 0 54px rgba(0, 240, 255, 0.45), 0 12px 32px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.animate-glow-pulse {
+  animation: glowPulse 2.8s ease-in-out infinite;
+}
+
+/* Arrow Micro-Interaction Nudge */
+@keyframes arrowNudge {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(4px); }
+}
+
+.animate-arrow-nudge {
+  animation: arrowNudge 1.6s ease-in-out infinite;
+}
+
+/* Secondary Button Ambient Border Glow */
+@keyframes secondaryGlow {
+  0%, 100% {
+    border-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 0 rgba(14, 165, 233, 0);
+  }
+  50% {
+    border-color: rgba(56, 189, 248, 0.45);
+    box-shadow: 0 0 22px rgba(14, 165, 233, 0.22);
+  }
+}
+
+.animate-secondary-glow {
+  animation: secondaryGlow 3.5s ease-in-out infinite;
+}
