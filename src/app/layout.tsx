@@ -28,15 +28,15 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "TereaTV — The Best IPTV Service | 4K Sports & 50K+ Channels",
-  description: "Join TereaTV, the best IPTV service in 2026. Stream 50,000+ live channels & 200K VODs in 4K 60FPS with Anti-Freeze tech. Instant activation from just $4.20/mo!",
+  title: "TereaTV - #1 Best IPTV Service 2026 | 50K+ Channels & 4K Sports",
+  description: "Stream 50,000+ live channels & 200K VOD in 4K 60FPS. Zero buffering anti-freeze servers, instant activation & 24h free trial. Get premium IPTV from $4.20/mo!",
   metadataBase: new URL("https://www.tereatv.top"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "TereaTV — The Best IPTV Service | 4K Sports & 50K+ Channels",
-    description: "Join TereaTV, the best IPTV service in 2026. Stream 50,000+ live channels & 200K VODs in 4K 60FPS with Anti-Freeze tech. Instant activation from just $4.20/mo!",
+    title: "TereaTV - #1 Best IPTV Service 2026 | 50K+ Channels & 4K Sports",
+    description: "Stream 50,000+ live channels & 200K VOD in 4K 60FPS. Zero buffering anti-freeze servers, instant activation & 24h free trial. Get premium IPTV from $4.20/mo!",
     url: "https://www.tereatv.top",
     siteName: "TereaTV",
     images: [
@@ -52,8 +52,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "TereaTV — The Best IPTV Service | 4K Sports & 50K+ Channels",
-    description: "Join TereaTV, the best IPTV service in 2026. Stream 50,000+ live channels & 200K VODs in 4K 60FPS with Anti-Freeze tech. Instant activation from just $4.20/mo!",
+    title: "TereaTV: #1 Best IPTV Service 2026 | 50K+ Channels & 4K Sports",
+    description: "Stream 50,000+ live channels & 200K VOD in 4K 60FPS. Zero buffering anti-freeze servers, instant activation & 24h free trial. Get premium IPTV from $4.20/mo!",
     images: ["/og-image-tereatv-v2.webp"],
   },
   icons: {
