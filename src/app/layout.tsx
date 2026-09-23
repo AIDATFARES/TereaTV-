@@ -29,14 +29,14 @@ const geist = Geist({
 
 export const metadata: Metadata = {
   title: "TereaTV - #1 Best IPTV Service 2026 | 50K+ Channels & 4K Sports",
-  description: "Stream 50,000+ live channels & 200K VOD in 4K 60FPS. Zero buffering anti-freeze servers, instant activation & 24h free trial. Get premium IPTV from $4.20/mo!",
+  description: "Stream 50,000+ live channels & 200K VOD in 4K 60FPS. The best service in the United States, Canada & Europe. Zero buffering, instant activation from $4.20/mo!",
   metadataBase: new URL("https://www.tereatv.top"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "TereaTV - #1 Best IPTV Service 2026 | 50K+ Channels & 4K Sports",
-    description: "Stream 50,000+ live channels & 200K VOD in 4K 60FPS. Zero buffering anti-freeze servers, instant activation & 24h free trial. Get premium IPTV from $4.20/mo!",
+    description: "Stream 50,000+ live channels & 200K VOD in 4K 60FPS. The best service in the United States, Canada & Europe. Zero buffering, instant activation from $4.20/mo!",
     url: "https://www.tereatv.top",
     siteName: "TereaTV",
     images: [
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
         url: "/og-image-tereatv-v2.webp",
         width: 1200,
         height: 630,
-        alt: "TereaTV — Premium 4K IPTV Service with 50,000+ Channels & VOD",
+        alt: "TereaTV - Premium 4K IPTV Streaming Service",
       },
     ],
     locale: "en_US",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "TereaTV - #1 Best IPTV Service 2026 | 50K+ Channels & 4K Sports",
-    description: "Stream 50,000+ live channels & 200K VOD in 4K 60FPS. Zero buffering anti-freeze servers, instant activation & 24h free trial. Get premium IPTV from $4.20/mo!",
+    description: "Stream 50,000+ live channels & 200K VOD in 4K 60FPS. The best service in the United States, Canada & Europe. Zero buffering, instant activation from $4.20/mo!",
     images: ["/og-image-tereatv-v2.webp"],
   },
   icons: {

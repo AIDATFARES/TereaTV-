@@ -32,17 +32,23 @@ export default function HeroSection() {
         {/* Live Status Pill Badge */}
         <div className="badge-pill mb-4 sm:mb-6">
           <span className="dot-blink" />
-          <span>TereaTV IPTV — Verified 4K Feeds · +7,500 Active Subscribers</span>
+          <span>TereaTV IPTV — Top Rated in USA, Canada &amp; Europe · Verified 4K Feeds</span>
         </div>
 
         {/* Headline */}
-        <h1 className="text-3xl sm:text-6xl md:text-7xl lg:text-[80px] font-black tracking-tight leading-[1.05] uppercase text-white drop-shadow-2xl max-w-5xl break-words">
-          <span className="text-white">TereaTV IPTV</span>{" "}
-          <span className="bg-gradient-to-r from-[#38BDF8] via-[#0EA5E9] to-[#00F0FF] bg-clip-text text-transparent">
-            Premium 4K Streaming
-          </span><br />
-          <span>For Live Sports, Cinema</span><br />
-          <span className="text-white">&amp; +50,000 Channels</span>
+        <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-[66px] font-black tracking-tight leading-[1.1] uppercase text-white drop-shadow-2xl max-w-4xl">
+          <span className="block text-white">
+            TereaTV{" "}
+            <span className="inline-block bg-gradient-to-r from-[#38BDF8] via-[#0EA5E9] to-[#00F0FF] bg-clip-text text-transparent">
+              Premium 4K IPTV
+            </span>
+          </span>
+          <span className="block text-white mt-1.5 sm:mt-2">
+            50,000+ Channels, Sports &amp; Cinema
+          </span>
+          <span className="block text-base sm:text-xl md:text-2xl lg:text-[26px] font-bold normal-case tracking-normal mt-3 sm:mt-4 text-transparent bg-clip-text bg-gradient-to-r from-[#38BDF8] via-sky-200 to-[#00F0FF]">
+            #1 Rated Service in the United States, Canada &amp; Europe
+          </span>
         </h1>
 
         {/* Pricing Subheadline */}
@@ -58,7 +64,7 @@ export default function HeroSection() {
 
         {/* Subtitle / Paragraph */}
         <p className="text-base sm:text-lg md:text-xl text-slate-300 font-normal max-w-[820px] mt-6 leading-relaxed">
-          Experience next-generation streaming with TereaTV IPTV. Access over <Link href="/channels" className="text-white font-extrabold hover:text-[#38BDF8] underline decoration-sky-500/40 transition-colors">+50,000 live TV channels</Link>, +120,000 films &amp; series, and <Link href="/channels" className="text-slate-200 hover:text-[#38BDF8] underline decoration-sky-500/30 transition-colors">200,000+ VOD releases</Link> in pristine 4K 60FPS. Powered by dedicated anti-freeze servers for ultra-smooth playback on <Link href="/installation" className="text-[#38BDF8] font-bold hover:text-white underline decoration-sky-500/50 transition-colors">any device you choose</Link>—Smart TV, Firestick, Android, iOS, and PC.
+          Experience next-generation streaming with TereaTV IPTV—the best service in the United States, Canada, and Europe. Access over <Link href="/channels" className="text-white font-extrabold hover:text-[#38BDF8] underline decoration-sky-500/40 transition-colors">50,000+ live TV channels</Link>, live sports, blockbuster cinema, and <Link href="/channels" className="text-slate-200 hover:text-[#38BDF8] underline decoration-sky-500/30 transition-colors">200,000+ VOD releases</Link> in pristine 4K 60FPS. Powered by dedicated anti-freeze servers for ultra-smooth playback on <Link href="/installation" className="text-[#38BDF8] font-bold hover:text-white underline decoration-sky-500/50 transition-colors">any device you choose</Link>—Smart TV, Firestick, Android, iOS, and PC.
         </p>
 
         {/* Trust Badges */}
