@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "TereaTV: #1 Best IPTV Service 2026 | 50K+ Channels & 4K Sports",
+    title: "TereaTV - #1 Best IPTV Service 2026 | 50K+ Channels & 4K Sports",
     description: "Stream 50,000+ live channels & 200K VOD in 4K 60FPS. Zero buffering anti-freeze servers, instant activation & 24h free trial. Get premium IPTV from $4.20/mo!",
     images: ["/og-image-tereatv-v2.webp"],
   },
