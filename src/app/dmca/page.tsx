@@ -2,10 +2,23 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Legal Disclaimer & DMCA | TereaTV",
-  description: "Legal Disclaimer and DMCA policy for TereaTV.",
+  title: "DMCA Copyright Policy & Legal Disclaimer | TereaTV",
+  description:
+    "Review the DMCA copyright compliance, content policy, and legal disclaimer for TereaTV. We respect intellectual property and handle inquiries promptly.",
   alternates: {
     canonical: "/dmca",
+  },
+  openGraph: {
+    title: "DMCA Copyright Policy & Legal Disclaimer | TereaTV",
+    description:
+      "Review the DMCA copyright compliance, content policy, and legal disclaimer for TereaTV. We respect intellectual property and handle inquiries promptly.",
+    url: "https://www.tereatv.top/dmca",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "DMCA Copyright Policy & Legal Disclaimer | TereaTV",
+    description:
+      "Review the DMCA copyright compliance, content policy, and legal disclaimer for TereaTV. We respect intellectual property and handle inquiries promptly.",
   },
 };
 

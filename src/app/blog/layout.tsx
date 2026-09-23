@@ -1,23 +1,23 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "IPTV Streaming Guides, Tutorials & News | TereaTV Blog",
+  title: "TereaTV Blog: Pro IPTV Guides, Tutorials & 4K Streaming Tips",
   description:
-    "Learn how to get the most from the best IPTV service. Read expert tutorials, app setup guides, buffer-fixing tips, and streaming advice from TereaTV.",
+    "Master IPTV streaming with expert guides from TereaTV. Learn how to stop buffering, calibrate lip-sync audio, optimize 4K video, and choose the best hardware.",
   alternates: {
     canonical: "/blog",
   },
   openGraph: {
-    title: "IPTV Streaming Guides, Tutorials & News | TereaTV Blog",
+    title: "TereaTV Blog: Pro IPTV Guides, Tutorials & 4K Streaming Tips",
     description:
-      "Learn how to get the most from the best IPTV service. Read expert tutorials, app setup guides, buffer-fixing tips, and streaming advice from TereaTV.",
+      "Master IPTV streaming with expert guides from TereaTV. Learn how to stop buffering, calibrate lip-sync audio, optimize 4K video, and choose the best hardware.",
     url: "https://www.tereatv.top/blog",
   },
   twitter: {
     card: "summary_large_image",
-    title: "IPTV Streaming Guides, Tutorials & News | TereaTV Blog",
+    title: "TereaTV Blog: Pro IPTV Guides, Tutorials & 4K Streaming Tips",
     description:
-      "Learn how to get the most from the best IPTV service. Read expert tutorials, app setup guides, buffer-fixing tips, and streaming advice from TereaTV.",
+      "Master IPTV streaming with expert guides from TereaTV. Learn how to stop buffering, calibrate lip-sync audio, optimize 4K video, and choose the best hardware.",
   },
 };
 

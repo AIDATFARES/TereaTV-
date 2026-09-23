@@ -1,23 +1,23 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "24/7 Customer Support — WhatsApp & Live Help Desk | TereaTV",
+  title: "TereaTV Support: 24/7 Fast WhatsApp Help & Technical Desk",
   description:
-    "Need fast assistance with your streaming setup? Contact the TereaTV support team 24/7 on WhatsApp or email. Fast technical help in under 5 minutes!",
+    "Need immediate help with your IPTV setup? Contact TereaTV customer support 24/7 on WhatsApp or email. Fast technical assistance in under 5 minutes guaranteed!",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
-    title: "24/7 Customer Support — WhatsApp & Live Help Desk | TereaTV",
+    title: "TereaTV Support: 24/7 Fast WhatsApp Help & Technical Desk",
     description:
-      "Need fast assistance with your streaming setup? Contact the TereaTV support team 24/7 on WhatsApp or email. Fast technical help in under 5 minutes!",
+      "Need immediate help with your IPTV setup? Contact TereaTV customer support 24/7 on WhatsApp or email. Fast technical assistance in under 5 minutes guaranteed!",
     url: "https://www.tereatv.top/contact",
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Customer Support — WhatsApp & Live Help Desk | TereaTV",
+    title: "TereaTV Support: 24/7 Fast WhatsApp Help & Technical Desk",
     description:
-      "Need fast assistance with your streaming setup? Contact the TereaTV support team 24/7 on WhatsApp or email. Fast technical help in under 5 minutes!",
+      "Need immediate help with your IPTV setup? Contact TereaTV customer support 24/7 on WhatsApp or email. Fast technical assistance in under 5 minutes guaranteed!",
   },
 };
 

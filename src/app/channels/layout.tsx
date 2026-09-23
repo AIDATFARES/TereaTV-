@@ -1,23 +1,23 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "50,000+ Live Channels & VOD Lineup | TereaTV TV Guide",
+  title: "TereaTV Channels: 50,000+ Live 4K Channels & Full EPG Guide",
   description:
-    "Explore the complete TereaTV channel lineup. Watch live sports, international news, cinema networks & over 200,000 on-demand movies with full EPG TV guide.",
+    "Explore 50,000+ live TV channels & 200,000 VOD movies from 160+ countries. Stream live sports, cinema, news & kids networks in 4K with instant switching!",
   alternates: {
     canonical: "/channels",
   },
   openGraph: {
-    title: "50,000+ Live Channels & VOD Lineup | TereaTV TV Guide",
+    title: "TereaTV Channels: 50,000+ Live 4K Channels & Full EPG Guide",
     description:
-      "Explore the complete TereaTV channel lineup. Watch live sports, international news, cinema networks & over 200,000 on-demand movies with full EPG TV guide.",
+      "Explore 50,000+ live TV channels & 200,000 VOD movies from 160+ countries. Stream live sports, cinema, news & kids networks in 4K with instant switching!",
     url: "https://www.tereatv.top/channels",
   },
   twitter: {
     card: "summary_large_image",
-    title: "50,000+ Live Channels & VOD Lineup | TereaTV TV Guide",
+    title: "TereaTV Channels: 50,000+ Live 4K Channels & Full EPG Guide",
     description:
-      "Explore the complete TereaTV channel lineup. Watch live sports, international news, cinema networks & over 200,000 on-demand movies with full EPG TV guide.",
+      "Explore 50,000+ live TV channels & 200,000 VOD movies from 160+ countries. Stream live sports, cinema, news & kids networks in 4K with instant switching!",
   },
 };
 

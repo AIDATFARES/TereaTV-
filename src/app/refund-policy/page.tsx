@@ -2,10 +2,23 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Refund Policy | TereaTV",
-  description: "Learn about the refund policy, eligibility, and process for TereaTV.",
+  title: "Refund Policy: 100% Satisfaction Guarantee | TereaTV",
+  description:
+    "Read TereaTV's 3-day money-back guarantee and clear refund policy. Try our premium IPTV service 100% risk-free with prompt customer support resolution.",
   alternates: {
     canonical: "/refund-policy",
+  },
+  openGraph: {
+    title: "Refund Policy: 100% Satisfaction Guarantee | TereaTV",
+    description:
+      "Read TereaTV's 3-day money-back guarantee and clear refund policy. Try our premium IPTV service 100% risk-free with prompt customer support resolution.",
+    url: "https://www.tereatv.top/refund-policy",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Refund Policy: 100% Satisfaction Guarantee | TereaTV",
+    description:
+      "Read TereaTV's 3-day money-back guarantee and clear refund policy. Try our premium IPTV service 100% risk-free with prompt customer support resolution.",
   },
 };
 

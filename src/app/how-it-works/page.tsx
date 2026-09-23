@@ -3,23 +3,23 @@ import Link from "next/link";
 import { ShieldCheck, Zap, Phone, MonitorSmartphone, Globe2, CheckCircle2 } from "lucide-react";
 
 export const metadata = {
-  title: "How It Works — Fast Setup & Instant Streaming | TereaTV",
+  title: "How TereaTV Works: Easy 3-Step Setup & Instant 4K Streaming",
   description:
-    "Get started with TereaTV in 3 simple steps: choose your plan, enter your credentials in your favorite player, and enjoy instant 4K streaming anywhere.",
+    "Start watching in under 5 minutes! Discover how TereaTV delivers 50,000+ channels in 4K: select a plan, receive your credentials, and enjoy zero-buffer streaming.",
   alternates: {
     canonical: "/how-it-works",
   },
   openGraph: {
-    title: "How It Works — Fast Setup & Instant Streaming | TereaTV",
+    title: "How TereaTV Works: Easy 3-Step Setup & Instant 4K Streaming",
     description:
-      "Get started with TereaTV in 3 simple steps: choose your plan, enter your credentials in your favorite player, and enjoy instant 4K streaming anywhere.",
+      "Start watching in under 5 minutes! Discover how TereaTV delivers 50,000+ channels in 4K: select a plan, receive your credentials, and enjoy zero-buffer streaming.",
     url: "https://www.tereatv.top/how-it-works",
   },
   twitter: {
     card: "summary_large_image",
-    title: "How It Works — Fast Setup & Instant Streaming | TereaTV",
+    title: "How TereaTV Works: Easy 3-Step Setup & Instant 4K Streaming",
     description:
-      "Get started with TereaTV in 3 simple steps: choose your plan, enter your credentials in your favorite player, and enjoy instant 4K streaming anywhere.",
+      "Start watching in under 5 minutes! Discover how TereaTV delivers 50,000+ channels in 4K: select a plan, receive your credentials, and enjoy zero-buffer streaming.",
   },
 };
 

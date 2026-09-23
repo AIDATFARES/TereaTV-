@@ -2,10 +2,23 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | TereaTV",
-  description: "Learn how TereaTV collects, uses, and protects personal information.",
+  title: "Privacy Policy: User Data & Privacy Protection | TereaTV",
+  description:
+    "Read TereaTV's strict privacy policy. Learn how we safeguard your personal data with encrypted transactions, zero activity logging, and strict GDPR standards.",
   alternates: {
     canonical: "/privacy-policy",
+  },
+  openGraph: {
+    title: "Privacy Policy: User Data & Privacy Protection | TereaTV",
+    description:
+      "Read TereaTV's strict privacy policy. Learn how we safeguard your personal data with encrypted transactions, zero activity logging, and strict GDPR standards.",
+    url: "https://www.tereatv.top/privacy-policy",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Privacy Policy: User Data & Privacy Protection | TereaTV",
+    description:
+      "Read TereaTV's strict privacy policy. Learn how we safeguard your personal data with encrypted transactions, zero activity logging, and strict GDPR standards.",
   },
 };
 

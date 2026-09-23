@@ -4,23 +4,23 @@ import BrandMarquee from "@/components/home/BrandMarquee";
 import { Clock3, Download, Headphones, Link2, Monitor, PlayCircle } from "lucide-react";
 
 export const metadata = {
-  title: "IPTV Setup Guide for Firestick, Smart TV & Android | TereaTV",
+  title: "TereaTV Setup Guide: Firestick, Smart TV, Android & Apple TV",
   description:
-    "Quick 5-minute setup instructions for your Smart TV, Fire TV Stick, Android Box, Apple TV & PC. Easy M3U & Xtream Codes setup guides with TereaTV.",
+    "Step-by-step 5-minute setup guides for Firestick, Smart TV, Android, Apple TV & PC. Easy M3U & Xtream Codes setup with TiviMate & IPTV Smarters.",
   alternates: {
     canonical: "/installation",
   },
   openGraph: {
-    title: "IPTV Setup Guide for Firestick, Smart TV & Android | TereaTV",
+    title: "TereaTV Setup Guide: Firestick, Smart TV, Android & Apple TV",
     description:
-      "Quick 5-minute setup instructions for your Smart TV, Fire TV Stick, Android Box, Apple TV & PC. Easy M3U & Xtream Codes setup guides with TereaTV.",
+      "Step-by-step 5-minute setup guides for Firestick, Smart TV, Android, Apple TV & PC. Easy M3U & Xtream Codes setup with TiviMate & IPTV Smarters.",
     url: "https://www.tereatv.top/installation",
   },
   twitter: {
     card: "summary_large_image",
-    title: "IPTV Setup Guide for Firestick, Smart TV & Android | TereaTV",
+    title: "TereaTV Setup Guide: Firestick, Smart TV, Android & Apple TV",
     description:
-      "Quick 5-minute setup instructions for your Smart TV, Fire TV Stick, Android Box, Apple TV & PC. Easy M3U & Xtream Codes setup guides with TereaTV.",
+      "Step-by-step 5-minute setup guides for Firestick, Smart TV, Android, Apple TV & PC. Easy M3U & Xtream Codes setup with TiviMate & IPTV Smarters.",
   },
 };
 
