@@ -46,12 +46,14 @@ export default function HeroSection() {
           <span className="block text-white mt-1.5 sm:mt-2">
             50,000+ Channels, Sports &amp; Cinema
           </span>
-          <span className="block text-base sm:text-xl md:text-2xl lg:text-[26px] font-bold normal-case tracking-normal mt-3 sm:mt-4 text-transparent bg-clip-text bg-gradient-to-r from-[#38BDF8] via-sky-200 to-[#00F0FF]">
-            #1 Rated Service in the United States, Canada &amp; Europe
-          </span>
         </h1>
 
-        {/* Pricing Subheadline */}
+        {/* Subtitle / Paragraph */}
+        <p className="text-base sm:text-lg md:text-xl text-slate-300 font-normal max-w-[820px] mt-6 leading-relaxed">
+          Experience next-generation streaming with TereaTV IPTV—the best service in the United States, Canada, and Europe. Access over <Link href="/channels" className="text-white font-extrabold hover:text-[#38BDF8] underline decoration-sky-500/40 transition-colors">50,000+ live TV channels</Link>, live sports, blockbuster cinema, and <Link href="/channels" className="text-slate-200 hover:text-[#38BDF8] underline decoration-sky-500/30 transition-colors">200,000+ VOD releases</Link> in pristine 4K 60FPS. Powered by dedicated anti-freeze servers for ultra-smooth playback on <Link href="/installation" className="text-[#38BDF8] font-bold hover:text-white underline decoration-sky-500/50 transition-colors">any device you choose</Link>—Smart TV, Firestick, Android, iOS, and PC.
+        </p>
+
+        {/* Pricing Subheadline / Special Deal */}
         <div className="mt-6 flex flex-wrap items-center gap-3">
           <Link href="/pricing" className="inline-flex items-center gap-2 rounded-full bg-amber-400/10 border border-amber-400/25 px-4 py-1.5 text-xs sm:text-sm font-extrabold text-amber-300 hover:bg-amber-400/20 transition-colors">
             🔥 Special Deal: From Only <strong className="text-white underline">$4.2 / Month</strong>!
@@ -62,28 +64,8 @@ export default function HeroSection() {
           </span>
         </div>
 
-        {/* Subtitle / Paragraph */}
-        <p className="text-base sm:text-lg md:text-xl text-slate-300 font-normal max-w-[820px] mt-6 leading-relaxed">
-          Experience next-generation streaming with TereaTV IPTV—the best service in the United States, Canada, and Europe. Access over <Link href="/channels" className="text-white font-extrabold hover:text-[#38BDF8] underline decoration-sky-500/40 transition-colors">50,000+ live TV channels</Link>, live sports, blockbuster cinema, and <Link href="/channels" className="text-slate-200 hover:text-[#38BDF8] underline decoration-sky-500/30 transition-colors">200,000+ VOD releases</Link> in pristine 4K 60FPS. Powered by dedicated anti-freeze servers for ultra-smooth playback on <Link href="/installation" className="text-[#38BDF8] font-bold hover:text-white underline decoration-sky-500/50 transition-colors">any device you choose</Link>—Smart TV, Firestick, Android, iOS, and PC.
-        </p>
-
-        {/* Trust Badges */}
-        <div className="mt-6 flex flex-wrap items-center gap-6 text-xs text-slate-300">
-          <div className="flex items-center gap-2">
-            <div className="flex text-amber-400 text-sm">★★★★★</div>
-            <span className="font-bold text-white">4.9 / 5.0</span>
-            <span className="text-slate-400 font-medium">Customer Rating</span>
-          </div>
-          <div className="hidden sm:block w-px h-4 bg-white/15" />
-          <div className="flex items-center gap-2">
-            <ShieldCheck className="w-4 h-4 text-[#00F0FF]" />
-            <span className="font-bold text-white">99.9% Uptime</span>
-            <span className="text-slate-400 font-medium">Anti-Freeze Technology</span>
-          </div>
-        </div>
-
         {/* Action Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 mt-8 w-full sm:w-auto">
+        <div className="flex flex-col sm:flex-row gap-4 mt-6 w-full sm:w-auto">
           <a
             href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20TereaTV%20IPTV."
             target="_blank"
@@ -98,6 +80,21 @@ export default function HeroSection() {
           >
             <Play className="w-4 h-4 fill-current" /> View Pricing Plans
           </a>
+        </div>
+
+        {/* Trust Badges — positioned below Action Buttons */}
+        <div className="mt-6 flex flex-wrap items-center gap-6 text-xs text-slate-300">
+          <div className="flex items-center gap-2">
+            <div className="flex text-amber-400 text-sm">★★★★★</div>
+            <span className="font-bold text-white">4.9 / 5.0</span>
+            <span className="text-slate-400 font-medium">Customer Rating</span>
+          </div>
+          <div className="hidden sm:block w-px h-4 bg-white/15" />
+          <div className="flex items-center gap-2">
+            <ShieldCheck className="w-4 h-4 text-[#00F0FF]" />
+            <span className="font-bold text-white">99.9% Uptime</span>
+            <span className="text-slate-400 font-medium">Anti-Freeze Technology</span>
+          </div>
         </div>
 
         {/* TereaTV Floating Feature Badges */}
